@@ -2,9 +2,35 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
+
+  	import { Avatar, Navbar, NavBrand, NavLi, NavUl, NavHamburger, ImagePlaceholder, Skeleton, TextPlaceholder } from 'flowbite-svelte'
+
 </script>
 
-<header>
+
+<div class="relative px-8">
+	<Navbar
+		style="background:transparent"
+	  navClass="px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
+	  let:hidden
+	  let:toggle
+	>
+	  <NavBrand href="/">
+		<Avatar src="https://pbs.twimg.com/profile_images/1632561586534772737/RH4PMMnu_400x400.jpg" class="mr-3" alt="Seers Logo"/>
+		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Seers</span>
+	  </NavBrand>
+	  <NavHamburger on:click={toggle} />
+	  <NavUl {hidden}>
+		<NavLi href="/" active={true}>Home</NavLi>
+		<NavLi href="/about">About</NavLi>
+		<NavLi href="/sns">SNS</NavLi>
+		<NavLi href="/whitepaper">Whitepaper</NavLi>
+		<NavLi href="/contact">Contact</NavLi>
+	  </NavUl>
+	</Navbar>
+	</div>
+
+<!-- <header>
 	<div class="corner">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />
@@ -36,9 +62,9 @@
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
-</header>
+</header> -->
 
-<style>
+<!-- <style>
 	header {
 		display: flex;
 		justify-content: space-between;
@@ -126,4 +152,4 @@
 	a:hover {
 		color: var(--color-theme-1);
 	}
-</style>
+</style> -->
