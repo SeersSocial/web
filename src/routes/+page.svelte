@@ -62,7 +62,7 @@
 
 
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">
-	<div class="shadow border border-black rounded-lg p-4">
+	<div class="shadow border rounded-lg p-4">
 		<div class="md:flex md:flex-row w-full">
 			<div class="md:w-1/2 p-4">
 				<img src="https://i.ibb.co/ByCqhQx/Screenshot-2023-05-15-at-15-31-23.png" class="rounded" />
@@ -77,7 +77,7 @@
 
 
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">
-	<div class="shadow border border-black rounded-lg p-4">
+	<div class="shadow border rounded-lg p-4">
 		<div class="md:flex md:flex-row w-full">
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Prediction Markets</h3>
