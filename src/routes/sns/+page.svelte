@@ -13,7 +13,7 @@
 		    <h3 class="font-bold">SNS Information</h3>
         </div>
 
-        <Accordion activeClasses="" inactiveClasses="">
+        <Accordion activeClasses="" inactiveClasses="" defaultClass="">
             <AccordionItem>
                 <span slot="header">1 - Product / Service Overview</span>
                 <div  class="space-y-4">
