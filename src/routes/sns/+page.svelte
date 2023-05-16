@@ -107,7 +107,10 @@
                   4 - Purpose of the SEER utility token</span>
                   <div class="space-y-4">
                       <p>
-                        TODO    
+                        It can be staked as neurons (very similar to ICP neurons) allowing token holders to participate in the governance of Seers by voting on SNS proposals, and by doing so, earn voting rewards. 
+                        These rewards increase the longer the tokens are staked and so token holders are incentivised to act in the long term interests of Seers.
+                        It can be used by Seers users to pay for premium features.
+                        It can be used to reward contributions to the evolution or growth of the Seers service either through automated user rewards or by SNS proposal.   
                     </p>
                 </div> 
             </AccordionItem> 
