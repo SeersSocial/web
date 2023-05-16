@@ -34,8 +34,8 @@
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden}>
 			<NavLi href="/" active={true}>Home</NavLi>
-			<NavLi href="/about">About</NavLi>
-			<NavLi href="/sns">SNS</NavLi>
+			<!-- <NavLi href="/about">About</NavLi>
+			<NavLi href="/sns">SNS</NavLi> -->
 		</NavUl>
 	</Navbar>
 </div>
