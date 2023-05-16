@@ -53,7 +53,7 @@
 	</div>
 </section>
 
-<section class="w-full flex flex-row gap-4 text-2xl justify-center mt-4 p-8">
+<section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-4 p-8">
 	<div>+10K Posts</div>
 	<div>+$15K TVL</div>
 	<div>+3K Users</div>
