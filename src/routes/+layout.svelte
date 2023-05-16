@@ -44,8 +44,8 @@
 			<div>
 			  <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Legal</h2>
 			  <FooterLinkGroup>
-				<FooterLink liClass="mb-4" href="/">Privacy Policy</FooterLink>
-				<FooterLink liClass="mb-4" href="/">Terms & Conditions</FooterLink>
+				<FooterLink liClass="mb-4" target="_blank" href="https://docs.google.com/document/d/1NkaGXvzFCLV5ep9jQQU3WaY5Gcxqh0ihekymImckhAo/edit?usp=sharing">Privacy Policy</FooterLink>
+				<FooterLink liClass="mb-4" target="_blank" href="https://docs.google.com/document/d/15iAz0gxVEj1ZKvlxiRaT2QlR0ITm8AGVGsvAj15uyFk/edit?usp=sharing">Terms & Conditions</FooterLink>
 			  </FooterLinkGroup>
 			</div>
 		  </div>
