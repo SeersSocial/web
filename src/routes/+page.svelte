@@ -32,7 +32,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Seers: Web3 Social Network</title>
 	<meta name="description" content="Seers: Web3 Social Network" />
 </svelte:head>
 
