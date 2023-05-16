@@ -5,7 +5,7 @@
 
 <section class="w-full flex flex-col mt-14 text-lg justify-center justify-items-center content-center items-center">
 
-	<div class="flex flex-col w-2/3 gap-4">
+	<div class="flex flex-col md:w-2/3 gap-4">
 		<div>
 		<h3 class="font-bold">About</h3>
 		<p>
