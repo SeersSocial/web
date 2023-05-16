@@ -45,7 +45,7 @@
 			Seers is a decentralized application (dApp) that combines the familiar look and feel of Twitter with cryptocurrency features, enabling users to engage in decentralized social media interactions while seamlessly integrating crypto-related functionalities such as tipping, prediction markets, NFT sharing, and DAO creation. 
 		</div>
 		<div class="flex justify-center">
-			<Button size="lg">Enter App</Button>
+			<Button size="lg"><a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/">Enter App</a></Button>
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
