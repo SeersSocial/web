@@ -36,8 +36,8 @@
 	<meta name="description" content="Seers: Web3 Social Network" />
 </svelte:head>
 
-<section class="w-full flex flex-row mt-14 m-4">
-	<div class="flex flex-col gap-4 w-1/2 mt-4 p-4">
+<section class="w-full md:flex md:flex-row mt-14">
+	<div class="flex flex-col gap-4 md:w-1/2 mt-4 p-4">
 		<div class="text-4xl font-bold text-center">
 			Web3 Social Network
 		</div>
@@ -48,7 +48,7 @@
 			<Button size="lg">Enter App</Button>
 		</div>
 	</div>
-	<div class="flex flex-col w-1/2 mt-4 p-4">
+	<div class="flex flex-col md:w-1/2 mt-4 p-4">
 		<CarouselTransition {images} loop transitionType="fade" transitionParams="{{ duration: 500 }}"  showCaptions={false} showThumbs={false} duration="5000" slideControls={false}  showIndicators={false} />
 	</div>
 </section>
@@ -63,11 +63,11 @@
 
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">
 	<div class="shadow border rounded-lg p-4">
-		<div class="flex flex-row w-full">
-			<div class="w-1/2 p-4">
+		<div class="md:flex md:flex-row w-full">
+			<div class="md:w-1/2 p-4">
 				<img src="https://i.ibb.co/ByCqhQx/Screenshot-2023-05-15-at-15-31-23.png" class="rounded" />
 			</div>
-			<div class="w-1/2 p-4 text-xl">
+			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Weekly Rewards in ICP</h3>
 				Seers is a social network that rewards your activity with weekly ICP-based rewards. Engage with the platform, like posts, and participate in the community to earn recurring tokens. It's a revolution in social media, combining connection and rewards in one place.
 			</div>
@@ -78,14 +78,14 @@
 
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">
 	<div class="shadow border rounded-lg p-4">
-		<div class="flex flex-row w-full">
-			<div class="w-1/2 p-4 text-xl">
+		<div class="md:flex md:flex-row w-full">
+			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Prediction Markets</h3>
 				<p>In Seers, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community. By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
 				<p class="mt-2">Prediction markets provide a unique avenue for discovering truth by aggregating the collective knowledge and opinions of participants, allowing us to leverage the wisdom of the crowd to make more accurate predictions and informed decisions.</p>
 			</div>
 
-			<div class="w-1/2 p-4">
+			<div class="md:w-1/2 p-4">
 				<img src="https://i.ibb.co/DW5WLmt/Screenshot-2023-05-15-at-15-47-16.png" class="rounded" />
 			</div>
 		</div>
