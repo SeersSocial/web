@@ -35,7 +35,7 @@ We, the pioneers of the cyberpunk era, gather here to establish a new paradigm f
 	<li><span class="font-semibold">Sovereignty over Digital Existence:</span> Our web3 social network liberates individuals from the clutches of corporate dominance. We forge a path toward digital sovereignty, where users have full control over their online identities and experiences. No longer shall we be mere data points on a corporate spreadsheet. We champion a user-centric approach, empowering individuals to shape their digital presence and participate in the governance of the platform.</li>
 	<li><span class="font-semibold">Embracing Cyberpunk Aesthetics:</span> Our web3 social network embodies the essence of the cyberpunk ethos. We embrace the dark, neon-lit landscapes of a dystopian future, where technology and rebellion coexist. Through a visually immersive experience, we seek to inspire and challenge the status quo, sparking a collective awakening that transcends boundaries.</li>
 </ul>
-<p>
+<p class="pt-4">
 Together, we embark on a mission to redefine social networking, ushering in a new era of cyberpunk-inspired principles. By upholding truth, ownership, privacy, and sovereignty, we will forge a future where the power is in the hands of the individual. Join us in this revolution, where the virtual world is liberated, and a brighter, more authentic future awaits.	
 		</p>
 	</div>
