@@ -8,10 +8,9 @@
 	<div class="flex flex-col md:w-2/3 gap-4">
 		<div>
 		<h3 class="font-bold">About</h3>
-		<p>
-			Seers is made up of a group of engineers who came
-			together in 2022 after collaborating for a number
-			of years in the Web3 industry.
+		<p>Seers is composed of a cohesive group of engineers who joined forces in 2022. 
+		They have built a strong professional bond through years of collaboration in the Web3 industry and their shared academic experiences. 
+		The team comprises individuals with distinguished qualifications, including holders of PhD degrees, former Googlers, and winners of programming Olympiads.
 		</p>
 		</div>
 		<div>
