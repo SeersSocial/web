@@ -35,7 +35,6 @@
 		<NavUl {hidden}>
 			<NavLi href="/">Home</NavLi>
 			<NavLi href="/about">About</NavLi>
-			<NavLi href="/sns">SNS</NavLi>
 		</NavUl>
 	</Navbar>
 </div>
