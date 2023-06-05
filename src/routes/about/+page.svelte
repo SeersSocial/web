@@ -27,6 +27,7 @@
 		<p>
 
 We, the pioneers of the cyberpunk era, gather here to establish a new paradigm for social networking—a digital realm where truth, ownership, privacy, and sovereignty reign supreme. Guided by the spirit of decentralization and empowered by Web3 technologies, we envision a future where individuals regain control over their online lives, liberated from the chains of centralized surveillance and manipulation.
+</p>
 <ul>
 	<li>Truth as the Foundation: In our cyberpunk web3 social network, truth is the bedrock upon which we build. We reject the era of misinformation, propaganda, and algorithmic manipulation. We vow to foster an environment where authenticity, transparency, and fact-checking prevail. Let us honor truth, enabling genuine connections and empowering individuals to make informed decisions.</li>
 	<li>Empowering Ownership: The power dynamic shifts within our web3 social network. We champion the concept of true ownership, where users control their data, identities, and digital assets. No longer shall centralized entities profit from exploiting our personal information. Through decentralized technologies, we reclaim our digital possessions and harness them for our benefit, fueling innovation and prosperity for all.</li>
@@ -34,6 +35,7 @@ We, the pioneers of the cyberpunk era, gather here to establish a new paradigm f
 	<li>Sovereignty over Digital Existence: Our web3 social network liberates individuals from the clutches of corporate dominance. We forge a path toward digital sovereignty, where users have full control over their online identities and experiences. No longer shall we be mere data points on a corporate spreadsheet. We champion a user-centric approach, empowering individuals to shape their digital presence and participate in the governance of the platform.</li>
 	<li>Embracing Cyberpunk Aesthetics: Our web3 social network embodies the essence of the cyberpunk ethos. We embrace the dark, neon-lit landscapes of a dystopian future, where technology and rebellion coexist. Through a visually immersive experience, we seek to inspire and challenge the status quo, sparking a collective awakening that transcends boundaries.</li>
 </ul>
+<p>
 Together, we embark on a mission to redefine social networking, ushering in a new era of cyberpunk-inspired principles. By upholding truth, ownership, privacy, and sovereignty, we will forge a future where the power is in the hands of the individual. Join us in this revolution, where the virtual world is liberated, and a brighter, more authentic future awaits.	
 		</p>
 	</div>
