@@ -23,14 +23,18 @@
 		</div>
 
 		<div>
-		<h3 class="font-bold">Manifesto</h3>
+		<h3 class="font-bold">Manifesto: Unleashing the Cyberpunk Web3 Revolution</h3>
 		<p>
-			The world is saturated with information. But with this fortune comes a dilemma: It’s hard to know which information is true. Whether we like it or not, all information is created by individuals, and individuals are inherently biased. But short of a crystal ball, how does one make decisions informed not by ego but by truth?
-The answer lies in data. Time and again, data has proven there is wisdom in crowds— that the many are smarter than the few, and can more precisely predict true outcomes. When a crowd is incentivized to share their predictions by betting on what they think will happen (not what they want to happen), bias is eliminated, and the truth follows. This method of trading, where people bet on outcomes, is called prediction markets.
-</p><p>
-At Seers, we use prediction markets to employ a governance model called futarchy, where participants bet on the success of proposed decisions, then the winning decisions are implemented. Unlike traditional governance structures where votes don’t always directly influence outcomes, futarchy ensures that when a decision is deemed likely to succeed, it’s put into practice — without the influence of bias.
-</p><p>
-Seers gives people “skin in the game” — a vested interest in the outcome of a decision. Because they don’t just stand to profit from betting on the truth… they stand to build a better, more equitable society because of it.
+
+We, the pioneers of the cyberpunk era, gather here to establish a new paradigm for social networking—a digital realm where truth, ownership, privacy, and sovereignty reign supreme. Guided by the spirit of decentralization and empowered by Web3 technologies, we envision a future where individuals regain control over their online lives, liberated from the chains of centralized surveillance and manipulation.
+<ul>
+	<li>Truth as the Foundation: In our cyberpunk web3 social network, truth is the bedrock upon which we build. We reject the era of misinformation, propaganda, and algorithmic manipulation. We vow to foster an environment where authenticity, transparency, and fact-checking prevail. Let us honor truth, enabling genuine connections and empowering individuals to make informed decisions.</li>
+	<li>Empowering Ownership: The power dynamic shifts within our web3 social network. We champion the concept of true ownership, where users control their data, identities, and digital assets. No longer shall centralized entities profit from exploiting our personal information. Through decentralized technologies, we reclaim our digital possessions and harness them for our benefit, fueling innovation and prosperity for all.</li>
+	<li>Privacy as a Fundamental Right: In this cyberpunk future, privacy is not a luxury but an inalienable right. We establish an unwavering commitment to protecting the personal data and online activities of our users. No surveillance, no tracking, and no invasive profiling. We foster a safe haven where individuals can express themselves freely without fear of retribution or intrusion.</li>
+	<li>Sovereignty over Digital Existence: Our web3 social network liberates individuals from the clutches of corporate dominance. We forge a path toward digital sovereignty, where users have full control over their online identities and experiences. No longer shall we be mere data points on a corporate spreadsheet. We champion a user-centric approach, empowering individuals to shape their digital presence and participate in the governance of the platform.</li>
+	<li>Embracing Cyberpunk Aesthetics: Our web3 social network embodies the essence of the cyberpunk ethos. We embrace the dark, neon-lit landscapes of a dystopian future, where technology and rebellion coexist. Through a visually immersive experience, we seek to inspire and challenge the status quo, sparking a collective awakening that transcends boundaries.</li>
+</ul>
+Together, we embark on a mission to redefine social networking, ushering in a new era of cyberpunk-inspired principles. By upholding truth, ownership, privacy, and sovereignty, we will forge a future where the power is in the hands of the individual. Join us in this revolution, where the virtual world is liberated, and a brighter, more authentic future awaits.	
 		</p>
 	</div>
 		
