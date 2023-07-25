@@ -69,6 +69,22 @@
                     </ul>
                 </div>
             </AccordionItem>
+            <AccordionItem>
+                <span slot="header">3 - SEER Token Utility</span>
+                <div  class="space-y-4">
+                    The SEER token offers an array of exciting use cases within the Seers ecosystem:
+                    <ul>
+                        <li><span class="text-sky-500">Governance and Voting:</span> SEER tokens can be staked as neurons, akin to ICP neurons, allowing token holders to actively participate in the governance of Seers by voting on proposals. By doing so, they earn voting rewards that increase over time, fostering long-term engagement and alignment with the platform's objectives.</li>
+                        <li><span class="text-sky-500">Promotion of posts and markets:</span> Users can utilize SEER tokens to promote posts and prediction markets within the Seers ecosystem, increasing their visibility and reach among the community.</li>
+                        <li><span  class="text-sky-500">Promotion of profiles:</span> SEER tokens can be used to secure featured placement on the Seers platform, highlighting specific profile, thus enhancing their exposure and attracting more followers.</li>
+                        <li><span  class="text-sky-500">Content Moderation and Rewards:</span> Content moderators on Seers play a crucial role in maintaining the quality and integrity of the platform's content. To participate in content moderation, moderators are required to lock a specific amount of SEER tokens. This token commitment demonstrates their dedication to ensuring a safe and engaging environment for users. Through an automated reward mechanism, content moderators receive fair compensation based on their reputation scores. This incentivizes active participation, promotes the growth of a vibrant content ecosystem, and ensures the continuous improvement and quality of the content available on Seers.</li>
+                        <li><span  class="text-sky-500">Access to Premium AI Services:</span>SEER tokens provide users with exclusive access to premium AI services within the Seers ecosystem. By leveraging their tokens, users can tap into the capabilities of state-of-the-art generative AI models, unlocking advanced functionalities for tasks such as content generation, creative design, and data synthesis. This integration of generative AI empowers users to explore new horizons of creativity, enabling them to generate unique and engaging content, collaborate with AI-powered tools, and unlock innovative possibilities within the Seers platform. The availability of these premium generative AI services adds an extra layer of value and creativity to the Seers experience, enhancing user engagement and pushing the boundaries of what's possible.</li>
+                        <li><span  class="text-sky-500">Storage Payments:</span>SEER tokens can be used for payments related to storage services, such as on the Seers Drive, ensuring secure and efficient data storage within the platform.</li>
+                        <li><span  class="text-sky-500">NFT Transactions on Seers Marketplace:</span> Within the Seers marketplace, users can buy and sell NFTs using SEER tokens. This facilitates seamless and secure transactions, fostering a vibrant marketplace for digital collectibles and unique assets.</li>
+                    </ul>
+                    These utility cases demonstrate the versatile and valuable nature of SEER tokens within the Seers ecosystem, encouraging active participation, rewarding contributions, and fueling the growth of the platform.
+                </div>
+            </AccordionItem>
           </Accordion>
     </div>
 </section>
