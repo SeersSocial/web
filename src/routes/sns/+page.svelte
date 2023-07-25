@@ -17,7 +17,6 @@
             <AccordionItem>
                 <span slot="header">1 - Product Overview</span>
                 <div  class="space-y-4">
-                    <h3>Introduction</h3>
                     <p>Seers is a Web3 decentralized, fully on-chain social network built atop the groundbreaking technology of the Internet Computer. Drawing inspiration from Twitter's intuitive design, Seers improves user interaction with exclusive crypto features like prediction markets. This platform allows you to voice your thoughts and use cryptocurrencies to predict future events. But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X', with the potential to redefine global interactions and transactions.</p>
                 </div>
             </AccordionItem>
