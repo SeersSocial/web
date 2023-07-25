@@ -10,7 +10,7 @@
 <section class="w-full flex flex-col mt-14 text-lg justify-center justify-items-center content-center items-center">
 	<div class="flex flex-col md:w-2/3 gap-4">
 		<div>
-		    <h3 class="font-bold">SNS Information</h3>
+		    <h3 class="font-bold">SNS Whitepaper</h3>
         </div>
 
         <Accordion activeClasses="" inactiveClasses="" defaultClass="">
@@ -25,12 +25,13 @@
                         For example, football fans can use ICP tokens as collateral to trade shares for the UEFA Champions League final between Real Madrid and Bayern Munich. Shares include "Real Madrid Wins," "Bayern Munich Wins," and "Match Ends in Draw." Users can stake ICP tokens to buy and sell these shares based on their predictions. Share prices fluctuate based on user activity and sentiment. After the final, winning shares can be exchanged back for ICP tokens, while unsuccessful shares result in the loss of the staked ICP collateral. In this way, Seers offers an interactive way for football enthusiasts to leverage ICP and participate in the excitement of the championship match.
                     </p>
                     <h3 class="text-sky-500">Seers' Accomplishments and Decentralised Future</h3>
+                    <ul>
+                        <li>Over the past year, Seers conducted extensive product-market fit experiments, featuring 200 prediction markets and engaging 3,000 users. Additionally, our community has created over 10,000 posts, reflecting active participation.</li>
+                        <li>These efforts have resulted in a remarkable Total Value Locked (TVL) of $15,000 in ICP and an estimated yearly revenue of $25,000.</li>
+                        <li>Importantly, we have recently distributed part of the revenue to our users according to their contributions over the previous month, with some members earning up to $100 per week.</li>
+                    </ul>
                     <p>
-                        <ul>
-                            <li>Over the past year, Seers conducted extensive product-market fit experiments, featuring 200 prediction markets and engaging 3,000 users. Additionally, our community has created over 10,000 posts, reflecting active participation.</li>
-                            <li>These efforts have resulted in a remarkable Total Value Locked (TVL) of $15,000 in ICP and an estimated yearly revenue of $25,000.</li>
-                            <li>Importantly, we have recently distributed part of the revenue to our users according to their contributions over the previous month, with some members earning up to $100 per week.</li>
-                        </ul>
+                
                         While we consider these figures modest, we firmly believe that we will experience exponential growth as we continue to develop our roadmap and tap into the full potential of the Internet Computer's capabilities.
 
                         Decentralization is crucial to ramp up liquidity and deploy more powerful features, as outlined in the next section, which allows us to foster a truly user-driven and resilient ecosystem.
