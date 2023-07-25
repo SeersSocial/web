@@ -17,7 +17,13 @@
             <AccordionItem>
                 <span slot="header">1 - Product Overview</span>
                 <div  class="space-y-4">
+                    <h3>Introduction</h3>
                     <p>Seers is a Web3 decentralized, fully on-chain social network built atop the groundbreaking technology of the Internet Computer. Drawing inspiration from Twitter's intuitive design, Seers improves user interaction with exclusive crypto features like prediction markets. This platform allows you to voice your thoughts and use cryptocurrencies to predict future events. But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X', with the potential to redefine global interactions and transactions.</p>
+                    <h3>Prediction Markets</h3>
+                    <p>
+                        Prediction markets are financial markets where users can buy and sell shares based on the outcome of future events. By aggregating information and opinions from a large number of people, prediction markets provide more accurate predictions of event likelihoods.
+                        For example, football fans can use ICP tokens as collateral to trade shares for the UEFA Champions League final between Real Madrid and Bayern Munich. Shares include "Real Madrid Wins," "Bayern Munich Wins," and "Match Ends in Draw." Users can stake ICP tokens to buy and sell these shares based on their predictions. Share prices fluctuate based on user activity and sentiment. After the final, winning shares can be exchanged back for ICP tokens, while unsuccessful shares result in the loss of the staked ICP collateral. In this way, Seers offers an interactive way for football enthusiasts to leverage ICP and participate in the excitement of the championship match.
+                    </p>
                 </div>
             </AccordionItem>
             <!-- <AccordionItem>
