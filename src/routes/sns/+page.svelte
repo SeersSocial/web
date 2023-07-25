@@ -17,12 +17,25 @@
             <AccordionItem>
                 <span slot="header">1 - Product Overview</span>
                 <div  class="space-y-4">
-                    <h3>Introduction</h3>
+                    <h3 class="text-sky-500">Introduction</h3>
                     <p>Seers is a Web3 decentralized, fully on-chain social network built atop the groundbreaking technology of the Internet Computer. Drawing inspiration from Twitter's intuitive design, Seers improves user interaction with exclusive crypto features like prediction markets. This platform allows you to voice your thoughts and use cryptocurrencies to predict future events. But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X', with the potential to redefine global interactions and transactions.</p>
-                    <h3>Prediction Markets</h3>
+                    <h3 class="text-sky-500">Prediction Markets</h3>
                     <p>
                         Prediction markets are financial markets where users can buy and sell shares based on the outcome of future events. By aggregating information and opinions from a large number of people, prediction markets provide more accurate predictions of event likelihoods.
                         For example, football fans can use ICP tokens as collateral to trade shares for the UEFA Champions League final between Real Madrid and Bayern Munich. Shares include "Real Madrid Wins," "Bayern Munich Wins," and "Match Ends in Draw." Users can stake ICP tokens to buy and sell these shares based on their predictions. Share prices fluctuate based on user activity and sentiment. After the final, winning shares can be exchanged back for ICP tokens, while unsuccessful shares result in the loss of the staked ICP collateral. In this way, Seers offers an interactive way for football enthusiasts to leverage ICP and participate in the excitement of the championship match.
+                    </p>
+                    <h3 class="text-sky-500">Seers' Accomplishments and Decentralised Future</h3>
+                    <p>
+                        <ul>
+                            <li>Over the past year, Seers conducted extensive product-market fit experiments, featuring 200 prediction markets and engaging 3,000 users. Additionally, our community has created over 10,000 posts, reflecting active participation.</li>
+                            <li>These efforts have resulted in a remarkable Total Value Locked (TVL) of $15,000 in ICP and an estimated yearly revenue of $25,000.</li>
+                            <li>Importantly, we have recently distributed part of the revenue to our users according to their contributions over the previous month, with some members earning up to $100 per week.</li>
+                        </ul>
+                        While we consider these figures modest, we firmly believe that we will experience exponential growth as we continue to develop our roadmap and tap into the full potential of the Internet Computer's capabilities.
+
+                        Decentralization is crucial to ramp up liquidity and deploy more powerful features, as outlined in the next section, which allows us to foster a truly user-driven and resilient ecosystem.
+
+                        We instill confidence in our ability to vastly enhance the adoption of the Internet Computer and blockchain technologies, empowering users with greater ownership and control over their data.
                     </p>
                 </div>
             </AccordionItem>
