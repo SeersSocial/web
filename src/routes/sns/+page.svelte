@@ -15,7 +15,7 @@
 
         <Accordion activeClasses="" inactiveClasses="" defaultClass="">
             <AccordionItem>
-                <span slot="header">1 - Product Overview</span>
+                <span slot="header">Product Overview</span>
                 <div  class="space-y-4">
                     <h3 class="text-sky-600">Introduction</h3>
                     <p>Seers is a Web3 decentralized, fully on-chain social network built atop the groundbreaking technology of the Internet Computer. Drawing inspiration from Twitter's intuitive design, Seers improves user interaction with exclusive crypto features like prediction markets. This platform allows you to voice your thoughts and use cryptocurrencies to predict future events. But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X', with the potential to redefine global interactions and transactions.</p>
@@ -58,7 +58,7 @@
                 </div>
             </AccordionItem>
             <AccordionItem>
-                <span slot="header">2 - Seers DAO</span>
+                <span slot="header">Seers DAO</span>
                 <div  class="space-y-4">
                     <h3 class="text-sky-600">Summary</h3>
                     <ul>
@@ -70,7 +70,7 @@
                 </div>
             </AccordionItem>
             <AccordionItem>
-                <span slot="header">3 - SEER Token Utility</span>
+                <span slot="header">SEER Token Utility</span>
                 <div  class="space-y-4">
                     The SEER token offers an array of exciting use cases within the Seers ecosystem:
                     <ul>
@@ -83,6 +83,13 @@
                         <li><span  class="text-sky-500">NFT Transactions on Seers Marketplace:</span> Within the Seers marketplace, users can buy and sell NFTs using SEER tokens. This facilitates seamless and secure transactions, fostering a vibrant marketplace for digital collectibles and unique assets.</li>
                     </ul>
                     These utility cases demonstrate the versatile and valuable nature of SEER tokens within the Seers ecosystem, encouraging active participation, rewarding contributions, and fueling the growth of the platform.
+                </div>
+            </AccordionItem>
+            <AccordionItem>
+                <span slot="header">Token allocation at SNS genesis</span>
+                <div  class="space-y-4">
+                    The SNS will be initialized with 100 million SEER tokens allocated in the following proportions.
+                    <img alt="" class="w-300" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fdf1d2afe-e21c-41dc-bac3-0f0fcc6ef3a9%2FScreenshot_2023-07-23_at_18.43.20.png?table=block&id=4e61041d-1358-4652-88d5-a0ac17c1d3fe&spaceId=99cf4b46-040e-4088-b8a9-635bbdc239a0&width=2000&userId=35d25b55-082d-4e6c-83cf-28ce5dc9dd4f&cache=v2"/>    
                 </div>
             </AccordionItem>
           </Accordion>
