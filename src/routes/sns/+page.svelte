@@ -40,7 +40,7 @@
                         Seers currently combines the main features of Twitter with the innovation of prediction markets. Looking ahead, we have ambitious plans to elevate our UI/UX and prediction markets to new heights, while also introducing a plethora of other exciting features and cutting-edge crypto primitives.
                         Some key features and planned developments of Seers include:
                     </p>
-                    <ul>
+                    <ol>
                         <li>Decentralised platform built on the Internet Computer.</li>
                         <li>Intuitive UI/UX similar to Twitter, where user can create posts and prediction markets.</li>
                         <li>Decentralised oracles for sport events.</li>
@@ -52,8 +52,9 @@
                         <li>Programable and decentralised AI.</li>
                         <li>Integration with other social networks like Twitter, social graphs and protocols like ActivityPub (Mastodon, Threads). </li>
                         <li>Our goals include up to the creation of a stable coin (we already started researching possible designs), used in combination with our social graph to develop an array of innovative features.</li>
-                    </ul>
-
+                    </ol>
+                    <h3 class="text-sky-600">Team</h3>
+                    <p>Our team comprises a diverse and talented group of individuals with extensive experience in the web3 space, spanning across Europe and South America. Together, we bring a wealth of expertise in blockchain technology and decentralized applications. Our founder, ex Rust core developer for Polkadot and PhD, possesses deep insights into the inner workings of the blockchain ecosystem. Moreover, the team includes former Google employees who have contributed to large-scale projects, as well as individuals who have excelled in programming olympiads, showcasing their strong mathematical foundations. With their combined skills and knowledge, the Seers team is well-positioned to spearhead the revolution of social networking and prediction markets on a global scale.</p>
                 </div>
             </AccordionItem>
             <!-- <AccordionItem>
