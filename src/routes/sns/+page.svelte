@@ -15,47 +15,13 @@
 
         <Accordion activeClasses="" inactiveClasses="" defaultClass="">
             <AccordionItem>
-                <span slot="header">1 - Product / Service Overview</span>
+                <span slot="header">1 - Product Overview</span>
                 <div  class="space-y-4">
-                <p>Seers is a fully featured social network application running on the Internet Computer
-                    blockchain similar to Twitter.
-                </p>
-                <p>
-                    It is a responsive, progressive web application (PWA) and as such scales to take
-                    advantage of any screen size and integrates with devices in a similar way to native
-                    apps, with notifications on desktop and Android devices, and on iOS from next year. You can find the full development roadmap here.
-                </p>
-                <p> 
-                    The app is open source and runs as a collection of canister smart-contracts. It is possible to see the
-                    code running on any canister at any time with a link back to the particular version
-                    in source control and to independently verify this is true.
-                </p>
-                    
-                <p>A canister is created for each user which holds their direct chat data, links to the
-                    groups they are members of, and also serves as a wallet allowing Seers users to
-                    hold and manage tokens. Each community is also implemented as its
-                    own canister. This architecture will allow Seers to scale to every person on the
-                    planet. For details of the architecture please see here. 
-                    
-                </p>
-                <p>
-                    Seers users can send messages to each other containing tokens such as ICP and
-                    ckBTC and so can be used for global remittance. 
-                </p>
-                <p>
-                    However, the ground-breaking difference between Seers and other similar apps, is
-                    that it will soon be governed as a DAO with its own token called SEER, analogous to
-                    ICP. The DAO will be realized by a system called the SNS
-                    (Service Nervous System) analogous to the NNS (Network Nervous System) on the Internet Computer. 
-                </p> 
-                <p>The focus of the founding dev team has been first and foremost on building a rich,
-                    fully featured chat app on par with its web2 counterparts. Only by first building an
-                    app that people are happy to use will the rocket fuel of tokenization enable
-                    Seers to grow and challenge monopolistic big tech incumbents.
-                </p>
+                    <h3>Introduction</h3>
+                    <p>Seers is a Web3 decentralized, fully on-chain social network built atop the groundbreaking technology of the Internet Computer. Drawing inspiration from Twitter's intuitive design, Seers improves user interaction with exclusive crypto features like prediction markets. This platform allows you to voice your thoughts and use cryptocurrencies to predict future events. But this is merely the beginning. We envision Seers evolving into a vibrant platform akin to Elon Musk's 'X', with the potential to redefine global interactions and transactions.</p>
                 </div>
             </AccordionItem>
-            <AccordionItem>
+            <!-- <AccordionItem>
               <span slot="header">
                 2 - Internet Computer Overview</span>
                 <div class="space-y-4">
@@ -141,7 +107,7 @@
                     </p>
                 </div> 
             </AccordionItem> 
-            
+             -->
             
           </Accordion>
     </div>
