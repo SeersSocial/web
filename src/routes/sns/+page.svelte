@@ -89,7 +89,41 @@
                 <span slot="header">Token allocation at SNS genesis</span>
                 <div  class="space-y-4">
                     The SNS will be initialized with 100 million SEER tokens allocated in the following proportions.
-                    <img alt="" class="w-300" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fdf1d2afe-e21c-41dc-bac3-0f0fcc6ef3a9%2FScreenshot_2023-07-23_at_18.43.20.png?table=block&id=4e61041d-1358-4652-88d5-a0ac17c1d3fe&spaceId=99cf4b46-040e-4088-b8a9-635bbdc239a0&width=2000&userId=35d25b55-082d-4e6c-83cf-28ce5dc9dd4f&cache=v2"/>    
+                    <img alt="" class="w-300 my-2" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fdf1d2afe-e21c-41dc-bac3-0f0fcc6ef3a9%2FScreenshot_2023-07-23_at_18.43.20.png?table=block&id=4e61041d-1358-4652-88d5-a0ac17c1d3fe&spaceId=99cf4b46-040e-4088-b8a9-635bbdc239a0&width=2000&userId=35d25b55-082d-4e6c-83cf-28ce5dc9dd4f&cache=v2"/>    
+                    <h3 class="text-sky-600">Decentralization Sale</h3>
+
+                    <p>To decentralize governance and raise funds for the Seers SNS, a total of 25% of the token supply will be made available for sale. The maximum amount that can be raised through this sale will be set at 1,000,000 ICP, while the minimum will be 500,000 ICP.</p>
+
+                    <p>We are seeking a contribution of 333,333 ICP from the Neuron Fund (NF), with the remaining 666,667 ICP to be raised from participants in the decentralization sale.</p>
+
+                    <p>During the sale, participants will deposit ICP into the SNS. Once the sale concludes, they will receive SEER tokens in proportion to their share of the deposited ICP. Each participant will receive their SEER tokens in the form of a basket containing 5 neurons of equal value. The first neuron will have no dissolve delay, allowing for immediate disbursement of liquid SEER tokens. The remaining neurons will have dissolve delays of 3, 6, 9, and 12 months, respectively.</p>
+
+                    <p>Participants from the Neuron Fund will also receive their share of tokens as a basket of 5 neurons, following the same configuration as described above.</p>
+                
+                    <h3 class="text-sky-600">Founders and Funders</h3>
+
+                    <p>The Seers team has been diligently developing and running Seers since July 2022. Following the SNS sale of SEER tokens, the Seers Foundation will be established. The foundation will receive 15% (15,000,000) of the SEER tokens, distributed across 5 equal neurons. Each of these neurons will have a dissolve delay of 1 month, with "vesting periods" set at 0, 1, 2, 3, and 4 years, respectively.</p>
+
+                    <p>Seed funders, on the other hand, will receive 8% of the SEER tokens as a basket of 5 equal neurons. Each neuron will have a dissolve delay of 1 month and "vesting periods" of 0, 6, 12, 18, and 24 months, respectively.</p>
+
+                    <p>It is important to note that neurons with a "vesting period" cannot be accessed until the specified period has elapsed, including any potential extension of the dissolve delay. This mechanism ensures that founders and funders are prevented from rug-pulling investors and provides a continuous incentive to drive the success of Seers.</p>
+
+                    <p>Since these founder/funder neurons have relatively short dissolve delays of 1 month that cannot be extended, it ensures reduced voting power compared to the community. This intentional design ensures proper decentralization of governance, empowering the community to have a significant say in shaping the future of Seers.</p>
+                    <img alt="" class="w-300 my-2" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F255aec2c-c158-4045-8e99-c6438f67245f%2FScreenshot_2023-07-23_at_18.43.44.png?table=block&id=910ab51c-abd7-4c0c-aa2d-bed62b1a973c&spaceId=99cf4b46-040e-4088-b8a9-635bbdc239a0&width=2000&userId=35d25b55-082d-4e6c-83cf-28ce5dc9dd4f&cache=v2"/>    
+                    
+                    <h3 class="text-sky-600">SNS Treasury</h3>
+
+                    <p>Following the decentralization sale, the SNS will retain a treasury consisting of the remaining 52% of SEER tokens. This treasury will serve various purposes to support the growth and development of Seers.</p>
+
+                    <p>The majority of the tokens will be utilized over time to automatically reward content moderators, fostering a thriving content ecosystem and facilitating the expansion of Seers. Additionally, the treasury will be available to fund community bounties through SNS proposals, compensating individuals who contribute to Seers in various ways. This includes rewarding third-party developers for their valuable code contributions.</p>
+
+                    <p>A small portion, approximately 2%, will be allocated to provide initial liquidity pools for decentralized exchanges (DEXes). To enable the trading of SEER tokens, it is essential to list SEER on one or more exchanges. The intention is to list SEER on IC-based DEXes. Listing SEER on a DEX that implements an Automated Market Maker (AMM) requires the provision of a liquidity pool consisting of SEER tokens and another token, in this case, ICP raised from the decentralization sale. The plan is to make SEER available on multiple DEXes as they become available. Each DEX listing will require a proposal to transfer a specific amount of SEER from the SNS to the DEX, along with a corresponding proposal to transfer an equal value of ICP from the SNS to the DEX.</p>
+
+                    <p>The SNS treasury plays a crucial role in supporting the Seers ecosystem, rewarding contributors, promoting liquidity, and facilitating the growth and accessibility of the SEER token on decentralized exchanges.</p>
+                
+                    <h3 class="text-sky-600">Valuation Range</h3>
+
+                    <p>The inclusion of a maximum target is intended to provide participants with a guaranteed minimum allocation of SEER tokens in exchange for their ICP investment. With a lower bound of 500,000 ICP and an upper bound of 1,000,000 ICP for 25% of the tokens, the Seers DAO achieves an initial valuation range between 2M ICP and 4M ICP. Consequently, the initial value of 1 SEER token would range from 0.02 ICP to 0.04 ICP. This valuation range ensures transparency and establishes a framework for participants to assess the potential value of their investment in the Seers ecosystem.</p>
                 </div>
             </AccordionItem>
           </Accordion>
