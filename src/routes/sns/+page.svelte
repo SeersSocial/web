@@ -126,6 +126,43 @@
                     <p>The inclusion of a maximum target is intended to provide participants with a guaranteed minimum allocation of SEER tokens in exchange for their ICP investment. With a lower bound of 500,000 ICP and an upper bound of 1,000,000 ICP for 25% of the tokens, the Seers DAO achieves an initial valuation range between 2M ICP and 4M ICP. Consequently, the initial value of 1 SEER token would range from 0.02 ICP to 0.04 ICP. This valuation range ensures transparency and establishes a framework for participants to assess the potential value of their investment in the Seers ecosystem.</p>
                 </div>
             </AccordionItem>
+            <AccordionItem>
+                <span slot="header">Roadmap</span>
+                <div  class="space-y-4">
+                    <h3 class="text-sky-600">Q3 2023</h3>
+
+                    <p>Complete preparations for the SNS launch, perform post-launch tasks, and work towards reintroducing prediction markets in a decentralised manner. Focus on developing decentralised content moderation strategies and enhancing the user interface and user experience (UI/UX).</p>
+                    <h3 class="text-sky-600">Q4 2023</h3>
+
+                    <p>Roll out the decentralised sports oracle, offering support for prediction markets across all sports. Deploy the improved UI/UX, and integrate features such as private messaging and community creation.</p>
+
+                    <h3 class="text-sky-600">Q1 2024</h3>
+
+                    <p>Work on increasing the efficiency of liquidity in prediction markets and institute rewards for liquidity providers and content moderators. Continue the development of communities, AI bots, and entertaining games like poker. Initiate the development of native Android and iOS applications.</p>
+
+                    <h3 class="text-sky-600">Q2 2024</h3>
+
+                    <p>Facilitate token and DAO creation within communities and develop any additional features that these communities may require. Advance the development of peer-to-peer (p2p) prediction markets and NFT minting capabilities.</p>
+
+                    <h3 class="text-sky-600">Q3 2024</h3>
+
+                    <p>Finalise the implementation of peer-to-peer prediction markets, including the related contracts. Incorporate on-chain encryption and establish connections with other social networks like Twitter and Mastodon.</p>
+                </div>
+            </AccordionItem> 
+            <AccordionItem>
+                <span slot="header">Disclaimer</span>
+                <div  class="space-y-4">
+                        <p>The information presented in this white paper is subject to change or update, and should not be considered a commitment, promise, or guarantee by any individual or organization mentioned in the document regarding the future availability of services related to the use of tokens or their future performance or value. Approval from Seers SNS DAO members is required for the features or other aspects of the platform mentioned in the white paper</p>
+
+                        <p>This document is for informational purposes only and does not constitute an offer or solicitation to sell any securities or shares. It should not be construed as an invitation to buy or subscribe for any securities, nor should it form the basis of any contract or commitment. Seers DAO assumes no responsibility for any loss or damage arising from reliance on the information contained in this document, including any errors or inaccuracies. Any actions taken based on the information in this document are taken at the reader's own risk.</p>
+
+                        <p>This document is for informational purposes only and should not be construed as a recommendation to buy or financial advice. Investing or trading in any tokens, companies, or entities based solely on this information involves substantial risks, including but not limited to pricing volatility, inadequate liquidity, and the potential complete loss of principal. Investors are advised to conduct independent due diligence, seek assistance from professional financial, legal, and tax experts, and develop a standalone judgment of the relevant markets before making any investment decision. The information presented in this document does not create an attorney-client relationship and is not a substitute for legal advice from a qualified attorney.</p>
+
+                        <p>This document is provided "as is" without warranty of any kind, whether expressed or implied. We have prepared all information herein based upon selected public market data, which we believe to be accurate and reliable, and our view as of this date. However, we do not warrant the completeness or accuracy of the information presented herein, and it is accordingly subject to change without notice. The graphs, charts, and other visual aids are for informational purposes only and cannot be used alone to make investment decisions. None of these visual aids can capture all factors and variables required in making such decisions. Therefore, no representation is made that these will assist any person in making investment decisions.</p>
+
+                        <p>This document may contain forward-looking statements, including projections, forecasts, and estimates that are speculative in nature and based on certain assumptions. These statements are not guarantees of future performance and may be impacted by inaccurate assumptions or known or unknown risks, uncertainties, and other factors beyond the control of the parties involved. As a result, actual results may vary significantly from the forward-looking statements contained in this document. No representations or warranties are made as to the accuracy of the forward-looking statements.</p>
+                </div>
+            </AccordionItem>
           </Accordion>
     </div>
 </section>
