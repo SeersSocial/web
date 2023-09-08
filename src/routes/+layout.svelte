@@ -20,7 +20,7 @@
 		  <div class="mb-6 md:mb-0">
 			<FooterBrand
 			  href="https://flowbite.com"
-			  src="https://pbs.twimg.com/profile_images/1632561586534772737/RH4PMMnu_400x400.jpg"
+			  src="https://pbs.twimg.com/profile_images/1700033487405756416/qnNVhWar_400x400.jpg"
 			  alt="Seers Logo"
 			  name="Seers"
 			  imgClass="rounded-full w-12 p-2"
