@@ -52,10 +52,10 @@
 </section>
 
 <section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
-	<div>+10K Posts</div>
-	<div>+$15K TVL</div>
-	<div>+3K Users</div>
-	<div>+$25K Revenue</div>
+	<div >+<span class="numposts"/>K Posts</div>
+	<div>+$<span class="numtvl"/>K TVL</div>
+	<div>+<span class="numu"/>K Users</div>
+	<div>+$<span class="numr"/>K Revenue</div>
 </section>
 
 
@@ -91,3 +91,106 @@
 </section>
 
 <Roadmap></Roadmap>
+
+<style>
+@property --nump {
+  syntax: "<integer>";
+  initial-value: 100;
+  inherits: false;
+}
+
+.numposts {
+  animation: postscnt 5s 1 ease-out;
+  counter-set: nump var(--nump);
+  font: 500 24px system-ui;
+}
+.numposts::before {
+	content: counter(nump);
+}
+
+
+@keyframes postscnt {
+  from {
+    --nump: 0;
+  }
+  to {
+    --nump: 100;
+  }
+}
+
+@property --numt {
+  syntax: "<integer>";
+  initial-value: 15;
+  inherits: false;
+}
+
+.numtvl {
+  animation: tvlcnt 5s 1 ease-out;
+  counter-set: numt var(--numt);
+  font: 500 24px system-ui;
+}
+.numtvl::before {
+	content: counter(numt);
+}
+
+@keyframes tvlcnt {
+  from {
+    --numt: 0;
+  }
+  to {
+    --numt: 15;
+  }
+}
+
+@property --numu {
+  syntax: "<integer>";
+  initial-value: 3;
+  inherits: false;
+}
+
+.numu {
+  animation: ucnt 5s 1 ease-out;
+  counter-set: numu var(--numu);
+  font: 500 24px system-ui;
+}
+.numu::before {
+	content: counter(numu);
+}
+
+@keyframes ucnt {
+  from {
+    --numu: 0;
+  }
+  to {
+    --numu: 3;
+  }
+}
+
+
+
+
+@property --numr {
+  syntax: "<integer>";
+  initial-value: 25;
+  inherits: false;
+}
+
+.numr {
+  animation: rcnt 5s 1 ease-out;
+  counter-set: numr var(--numr);
+  font: 500 24px system-ui;
+}
+.numr::before {
+	content: counter(numr);
+}
+
+@keyframes rcnt {
+  from {
+    --numr: 0;
+  }
+  to {
+    --numr: 25;
+  }
+}
+
+</style>
