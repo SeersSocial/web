@@ -18,9 +18,8 @@
 
 <div class="relative px-8 bg-black text-white">
 	<Navbar
-		style="background:black; color: white"
+		style="background:transparent; color: white;"
 		navClass="bg-black text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
-		navDivClass="bg-black text-white"
 		let:hidden
 		let:toggle
 	>
@@ -32,8 +31,8 @@
 			/>
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
-		<NavHamburger on:click={toggle} class="bg-black text-white" />
-		<NavUl {hidden} style="background:black; color:white" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">
+		<NavHamburger  style="color:white" />
+		<NavUl {hidden} style="color:white">
 			<NavLi href="/" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Home</NavLi>
 			<NavLi href="/about" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">About</NavLi>
 			<!-- <NavLi href="/sns">SNS Whitepaper</NavLi> -->
