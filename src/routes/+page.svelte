@@ -102,7 +102,7 @@ body{
 
 @property --nump {
   syntax: "<integer>";
-  initial-value: 100;
+  initial-value: 12;
   inherits: false;
 }
 
@@ -121,7 +121,7 @@ body{
     --nump: 0;
   }
   to {
-    --nump: 100;
+    --nump: 12;
   }
 }
 
