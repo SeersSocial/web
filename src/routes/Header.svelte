@@ -20,6 +20,7 @@
 	<Navbar
 		style="background:black; color: white"
 		navClass="bg-black text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
+		navDivClass="bg-black text-white"
 		let:hidden
 		let:toggle
 	>
@@ -32,9 +33,9 @@
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} class="bg-black text-white" />
-		<NavUl {hidden} style="background:black; color:white" activeClass="" nonActiveClass="">
-			<NavLi href="/" style="color:white">Home</NavLi>
-			<NavLi href="/about" style="color:white">About</NavLi>
+		<NavUl {hidden} style="background:black; color:white" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">
+			<NavLi href="/" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Home</NavLi>
+			<NavLi href="/about" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">About</NavLi>
 			<!-- <NavLi href="/sns">SNS Whitepaper</NavLi> -->
 		</NavUl>
 	</Navbar>
