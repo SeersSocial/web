@@ -184,7 +184,7 @@ body{
 
 .numr {
   animation: rcnt 5s 1 ease-out;
-  counter-set: numr var(--numr);
+  counter-reset: numr var(--numr);
   font: 500 24px system-ui;
 }
 .numr::before {
