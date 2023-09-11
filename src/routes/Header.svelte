@@ -18,7 +18,7 @@
 
 <div class="relative px-8">
 	<Navbar
-		style="background:transparent; color: white"
+		style="background:black; color: white"
 		navClass="px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
 		let:hidden
 		let:toggle
@@ -32,7 +32,7 @@
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
-		<NavUl {hidden} style="color:white">
+		<NavUl {hidden} style="background:black; color:white">
 			<NavLi href="/" style="color:white">Home</NavLi>
 			<NavLi href="/about" style="color:white">About</NavLi>
 			<!-- <NavLi href="/sns">SNS Whitepaper</NavLi> -->
