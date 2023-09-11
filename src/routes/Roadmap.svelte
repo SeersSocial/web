@@ -2,13 +2,13 @@
     import roadmap from "$lib/images/roadmap.jpeg"
 </script>
 <section class="flex py-10 text-white sm:py-16 lg:py-24">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 w-full">
-        <div class="max-w-2xl mx-auto text-center">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 w-full md:max-w-full">
+        <div class="max-w-2xl md:max-w-full mx-auto text-center">
             <h2 class="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Roadmap 2023</h2>
-            <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-white-600">Our roadmap for the rest of the year includes decentralizing and polishing our current features and UI/UX.</p>
+            <p class="md:max-w-full max-w-lg mx-auto mt-4 text-base leading-relaxed text-white-600">Our roadmap for the rest of the year includes decentralizing and polishing our current features and UI/UX.</p>
         </div>
 
-        <ul class="max-w-md mx-auto mt-16 space-y-12">
+        <ul class="max-w-md md:max-w-full mx-auto mt-16 space-y-12">
             <li class="relative flex items-start">
                 <div class="-ml-0.5 absolute mt-0.5 top-14 left-8 w-px border-l-4 border-dotted border-gray-300 h-full" aria-hidden="true"></div>
 
