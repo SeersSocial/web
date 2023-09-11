@@ -32,8 +32,8 @@
 </script>
 
 <svelte:head>
-	<title>Seers: Web3 Social Network</title>
-	<meta name="description" content="Seers: Web3 Social Network" />
+	<title>ICX: Web3 Social Network</title>
+	<meta name="description" content="ICX: Web3 Social Network" />
 </svelte:head>
 
 <section class="w-full md:flex md:flex-row mt-14">
@@ -42,7 +42,7 @@
 			Web3 Social Network
 		</div>
 		<div class="text-xl p-2">
-			Seers is a decentralized application (dApp) that combines the familiar look and feel of Twitter with cryptocurrency features, enabling users to engage in decentralized social media interactions while seamlessly integrating crypto-related functionalities such as tipping, prediction markets, NFT sharing, and DAO creation. 
+			ICX is a decentralized application (dApp) that combines the familiar look and feel of Twitter with cryptocurrency features, enabling users to engage in decentralized social media interactions while seamlessly integrating crypto-related functionalities such as tipping, prediction markets, NFT sharing, and DAO creation. 
 		</div>
 		<div class="flex justify-center">
 			<a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/"><Button size="lg">Enter Demo</Button></a>
@@ -69,7 +69,7 @@
 			</div>
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Weekly Rewards in ICP</h3>
-				Seers is a social network that rewards your activity with weekly ICP-based rewards. Engage with the platform, like posts, and participate in the community to earn recurring tokens. It's a revolution in social media, combining connection and rewards in one place.
+				ICX is a social network that rewards your activity with weekly ICP-based rewards. Engage with the platform, like posts, and participate in the community to earn recurring tokens. It's a revolution in social media, combining connection and rewards in one place.
 			</div>
 		</div>
 	</div>

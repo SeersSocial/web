@@ -8,7 +8,7 @@
 	<div class="flex flex-col md:w-2/3 gap-4">
 		<div>
 		<h3 class="font-bold">About</h3>
-		<p>Seers is a web3 social network developed by a cohesive group of engineers who joined forces in 2022. 
+		<p>ICX is a web3 social network developed by a cohesive group of engineers who joined forces in 2022. 
 		They have built a strong professional bond through years of collaboration in the Web3 industry and their shared academic experiences. 
 		The team comprises individuals with distinguished qualifications, including holders of PhD degrees, former Googlers, and winners of programming Olympiads.
 		</p>
