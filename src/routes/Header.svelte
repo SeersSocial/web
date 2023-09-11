@@ -32,7 +32,7 @@
 			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">ICX</span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
-		<NavUl {hidden}>
+		<NavUl {hidden} style="color:white">
 			<NavLi href="/">Home</NavLi>
 			<NavLi href="/about">About</NavLi>
 			<!-- <NavLi href="/sns">SNS Whitepaper</NavLi> -->
