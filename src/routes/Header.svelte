@@ -33,8 +33,8 @@
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden} style="color:white">
-			<NavLi href="/">Home</NavLi>
-			<NavLi href="/about">About</NavLi>
+			<NavLi href="/" style="color:white">Home</NavLi>
+			<NavLi href="/about" style="color:white">About</NavLi>
 			<!-- <NavLi href="/sns">SNS Whitepaper</NavLi> -->
 		</NavUl>
 	</Navbar>
