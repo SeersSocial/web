@@ -42,7 +42,7 @@
 			Web3 Social Network
 		</div>
 		<div class="text-xl p-2">
-			ICX is a decentralized application (dApp) that combines the familiar look and feel of Twitter with cryptocurrency features, enabling users to engage in decentralized social media interactions while seamlessly integrating crypto-related functionalities such as tipping, prediction markets, NFT sharing, and DAO creation. 
+			ICX is a decentralized application (dApp) that combines the familiar look and feel of Twitter with cryptocurrency features, enabling users to engage in decentralized social media interactions while seamlessly integrating functionalities such as tipping, prediction markets, NFT sharing, and DAO creation. 
 		</div>
 		<div class="flex justify-center">
 			<a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/"><Button size="lg">Enter Demo</Button></a>
@@ -69,7 +69,7 @@
 			</div>
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Weekly Rewards in ICP</h3>
-				ICX is a social network that rewards your activity with weekly ICP-based rewards. Engage with the platform, like posts, and participate in the community to earn recurring tokens. It's a revolution in social media, combining connection and rewards in one place.
+				ICX is a social network that rewards your activity with weekly ICP/ICX rewards. Engage and contribute to the platform to earn token rewards. It's a revolution in social media, combining social media and token economics in one place.
 			</div>
 		</div>
 	</div>
@@ -79,14 +79,12 @@
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">
 	<div class="shadow ">
 		<div class="md:flex md:flex-row w-full">
+			<div class="md:w-1/2 p-4">
+				<img src="https://i.ibb.co/DW5WLmt/Screenshot-2023-05-15-at-15-47-16.png" class="rounded" />
+			</div>
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Prediction Markets</h3>
 				<p>In ICX, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community. By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
-				<p class="mt-2">Prediction markets provide a unique avenue for discovering truth by aggregating the collective knowledge and opinions of participants, allowing us to leverage the wisdom of the crowd to make more accurate predictions and informed decisions.</p>
-			</div>
-
-			<div class="md:w-1/2 p-4">
-				<img src="https://i.ibb.co/DW5WLmt/Screenshot-2023-05-15-at-15-47-16.png" class="rounded" />
 			</div>
 		</div>
 	</div>
