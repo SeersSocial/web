@@ -93,6 +93,13 @@
 <Roadmap></Roadmap>
 
 <style>
+
+body{
+	counter-reset: nump;
+	counter-reset: numt;
+	counter-reset: numr;
+}
+
 @property --nump {
   syntax: "<integer>";
   initial-value: 100;
