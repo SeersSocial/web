@@ -1,5 +1,8 @@
-<section class="py-10 text-white sm:py-16 lg:py-24">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+<script>
+    import roadmap from "$lib/images/roadmap.jpeg"
+</script>
+<section class="flex py-10 text-white sm:py-16 lg:py-24">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 w-full">
         <div class="max-w-2xl mx-auto text-center">
             <h2 class="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Roadmap 2023</h2>
             <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-white-600">Our roadmap for the rest of the year includes decentralizing and polishing our current features and UI/UX.</p>
@@ -47,4 +50,5 @@
             </li>
         </ul>
     </div>
+    
 </section>
