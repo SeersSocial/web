@@ -16,7 +16,7 @@
                 </div>
                 <div class="ml-6">
                     <h3 class="text-lg font-semibold text-sky-400">Decentralise ICX using the SNS</h3>
-                    <!-- <p class="mt-4 text-base text-white-100">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> -->
+                    <p class="mt-4 text-base text-white-100">Decentralise ICX by distributing 31% of the token supply and creating a SNS DAO.</p>
                 </div>
             </li>
 
@@ -30,7 +30,7 @@
                 </div>
                 <div class="ml-6">
                     <h3 class="text-lg font-semibold text-sky-400">Improve UI/UX and X features</h3>
-                    <!-- <p class="mt-4 text-base text-white-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> -->
+                    <p class="mt-4 text-base text-white-600">Finish the implementation of the new UI/UX and polish all basic X features.</p>
                 </div>
             </li>
 
@@ -42,7 +42,7 @@
                 </div>
                 <div class="ml-6">
                     <h3 class="text-lg font-semibold text-sky-400">Re-launch prediction markets</h3>
-                    <!-- <p class="mt-4 text-base text-white-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> -->
+                    <p class="mt-4 text-base text-white-600">Implement resolution of prediction markets using token voting and a decentralised sports oracle. Re-enable prediction markets.</p>
                 </div>
             </li>
         </ul>

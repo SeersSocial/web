@@ -25,7 +25,7 @@
     alt: "User Profiles",
     src: "https://i.ibb.co/QvPBZst/Screenshot-2023-05-15-at-14-45-26.png",
     title: "seers.social",
-  },
+  }
 ];
 </script>
 
@@ -47,8 +47,8 @@
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
-		<Carousel {images} />
-	</div>
+		<img src="https://i.ibb.co/vD1T5YS/Screenshot-2023-05-15-at-13-48-44.png" alt="screenshot"/>
+	</div> 
 </section>
 
 <section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
