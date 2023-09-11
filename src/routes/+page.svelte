@@ -107,7 +107,7 @@ body{
 }
 
 .numposts {
-  animation: postscnt 5s 1 ease-out;
+  animation: postscnt 3s 1 ease-out;
   counter-reset: nump var(--nump);
   font: 500 24px system-ui;
 }
@@ -132,7 +132,7 @@ body{
 }
 
 .numtvl {
-  animation: tvlcnt 5s 1 ease-out;
+  animation: tvlcnt 3s 1 ease-out;
   counter-reset: numt var(--numt);
   font: 500 24px system-ui;
 }
@@ -156,7 +156,7 @@ body{
 }
 
 .numu {
-  animation: ucnt 5s 1 ease-out;
+  animation: ucnt 3s 1 ease-out;
   counter-reset: numu var(--numu);
   font: 500 24px system-ui;
 }
@@ -183,7 +183,7 @@ body{
 }
 
 .numr {
-  animation: rcnt 5s 1 ease-out;
+  animation: rcnt 3s 1 ease-out;
   counter-reset: numr var(--numr);
   font: 500 24px system-ui;
 }
