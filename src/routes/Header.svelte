@@ -16,10 +16,10 @@
 	} from 'flowbite-svelte';
 </script>
 
-<div class="relative px-8">
+<div class="relative px-8 bg-black text-white">
 	<Navbar
 		style="background:black; color: white"
-		navClass="px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
+		navClass="bg-black text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
 		let:hidden
 		let:toggle
 	>
@@ -31,7 +31,7 @@
 			/>
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
-		<NavHamburger on:click={toggle} />
+		<NavHamburger on:click={toggle} class="bg-black text-white" />
 		<NavUl {hidden} style="background:black; color:white">
 			<NavLi href="/" style="color:white">Home</NavLi>
 			<NavLi href="/about" style="color:white">About</NavLi>
