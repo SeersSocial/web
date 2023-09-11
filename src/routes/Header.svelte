@@ -29,7 +29,7 @@
 				class="mr-3"
 				alt="ICX Logo"
 			/>
-			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">ICX</span>
+			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden} style="color:white">
