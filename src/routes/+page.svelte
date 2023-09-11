@@ -4,29 +4,27 @@
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
   	import { Parallax, ParallaxLayer, StickyLayer } from 'svelte-parallax';
 
-  	import { Avatar, Button, Card, CarouselTransition } from 'flowbite-svelte'
+  	import { Avatar, Button, Card, Carousel } from 'flowbite-svelte'
 	import { offset } from '@popperjs/core';
+	import Roadmap from './Roadmap.svelte';
 
 	
 	
 	export const images = [
   {
-    id: 0,
-    name: "Intuitive Interface like Twitter",
-    imgurl: "https://i.ibb.co/vD1T5YS/Screenshot-2023-05-15-at-13-48-44.png",
-    attribution: "seers.social",
+    alt: "Intuitive Interface like Twitter",
+    src: "https://i.ibb.co/vD1T5YS/Screenshot-2023-05-15-at-13-48-44.png",
+    title: "seers.social",
   },
   {
-    id: 1,
-    name: "Prediction Markets",
-    imgurl: "https://i.ibb.co/RPbF56D/Screenshot-2023-05-15-at-14-39-42.png",
-    attribution: "seers.social",
+    alt: "Prediction Markets",
+    src: "https://i.ibb.co/RPbF56D/Screenshot-2023-05-15-at-14-39-42.png",
+    title: "seers.social",
   },
   {
-    id: 2,
-    name: "User Profiles",
-    imgurl: "https://i.ibb.co/QvPBZst/Screenshot-2023-05-15-at-14-45-26.png",
-    attribution: "seers.social",
+    alt: "User Profiles",
+    src: "https://i.ibb.co/QvPBZst/Screenshot-2023-05-15-at-14-45-26.png",
+    title: "seers.social",
   },
 ];
 </script>
@@ -49,7 +47,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
-		<CarouselTransition {images} transitionParams="{{ duration: 1000 }}"  showCaptions={false} showThumbs={false}  slideControls={false}  showIndicators={false} />
+		<Carousel {images} />
 	</div>
 </section>
 
@@ -91,3 +89,5 @@
 		</div>
 	</div>
 </section>
+
+<Roadmap></Roadmap>
