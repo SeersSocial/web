@@ -108,7 +108,7 @@ body{
 
 .numposts {
   animation: postscnt 5s 1 ease-out;
-  counter-set: nump var(--nump);
+  counter-reset: nump var(--nump);
   font: 500 24px system-ui;
 }
 .numposts::before {
@@ -133,7 +133,7 @@ body{
 
 .numtvl {
   animation: tvlcnt 5s 1 ease-out;
-  counter-set: numt var(--numt);
+  counter-reset: numt var(--numt);
   font: 500 24px system-ui;
 }
 .numtvl::before {
@@ -157,7 +157,7 @@ body{
 
 .numu {
   animation: ucnt 5s 1 ease-out;
-  counter-set: numu var(--numu);
+  counter-reset: numu var(--numu);
   font: 500 24px system-ui;
 }
 .numu::before {
