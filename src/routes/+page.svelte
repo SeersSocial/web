@@ -49,7 +49,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
-		<CarouselTransition {images} loop transitionType="fade" transitionParams="{{ duration: 500 }}"  showCaptions={false} showThumbs={false} duration="5000" slideControls={false}  showIndicators={false} />
+		<CarouselTransition {images} transitionParams="{{ duration: 1000 }}"  showCaptions={false} showThumbs={false}  slideControls={false}  showIndicators={false} />
 	</div>
 </section>
 
