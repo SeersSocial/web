@@ -16,7 +16,7 @@
 		<div>
 		<h3 class="font-bold">Founder</h3>
 		<p>
-			The founder of Seers has over 3 years of experience developing web3 software and more than 10 years of experience in web software development. 
+			The founder of ICX has over 3 years of experience developing web3 software and more than 10 years of experience in web software development. 
 			He began his web3 journey as a Rust Core Dev, contributing to the development of Polkadot alongside Gavin Wood (Ethereum co-founder). 
 			Additionally, he has an extensive academic background, having worked as a PhD student specializing in the development of algorithms and proving complexity theorems in the area of Automata for Concurrent Program Verification.
 		</p>

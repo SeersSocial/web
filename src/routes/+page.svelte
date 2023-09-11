@@ -81,7 +81,7 @@
 		<div class="md:flex md:flex-row w-full">
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Prediction Markets</h3>
-				<p>In Seers, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community. By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
+				<p>In ICX, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community. By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
 				<p class="mt-2">Prediction markets provide a unique avenue for discovering truth by aggregating the collective knowledge and opinions of participants, allowing us to leverage the wisdom of the crowd to make more accurate predictions and informed decisions.</p>
 			</div>
 
