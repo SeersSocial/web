@@ -18,7 +18,7 @@
 
 <div class="relative px-8">
 	<Navbar
-		style="background:transparent"
+		style="background:transparent; color: white"
 		navClass="px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
 		let:hidden
 		let:toggle

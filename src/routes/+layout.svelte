@@ -7,7 +7,7 @@
  </script>
 
 
-<div class="app" style="background: rgb(235,221,226); background: radial-gradient(circle, rgba(235,221,226,1) 0%, rgba(244,247,250,1) 100%);">
+<div class="app" style="color: white; background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);;">
 	<Header />
 
 	<main class="flex mt-4" >
@@ -15,7 +15,7 @@
 	</main>
 
 	<Footer footerType="socialmedia" style="background:transparent;">
-		<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+		<hr class="my-6 border-black-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 		<div class="md:flex md:justify-between">
 		  <div class="mb-6 md:mb-0">
 			<FooterBrand
@@ -50,7 +50,7 @@
 			</div>
 		  </div>
 		</div>
-		<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+		<hr class="my-6 border-black-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 		<div class="sm:flex sm:items-center sm:justify-between">
 		  <FooterCopyright href="/" by="ICX." />
 		  <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
