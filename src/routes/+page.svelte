@@ -84,7 +84,9 @@
 			</div>
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-bold mb-2">Prediction Markets</h3>
-				<p>In ICX, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community. By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
+				<p>In ICX, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community.</p> 
+				<p class="pt-4">By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
+				<p class="pt-4">Prediction markets are resolved using token voting and a decentralised sports oracle.</p>
 			</div>
 		</div>
 	</div>
