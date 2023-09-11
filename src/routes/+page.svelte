@@ -66,7 +66,7 @@
 				<img src="https://i.ibb.co/ByCqhQx/Screenshot-2023-05-15-at-15-31-23.png" class="rounded" />
 			</div>
 			<div class="md:w-1/2 p-4 text-xl">
-				<h3 class="font-medium mb-2 text-sky-400">Weekly Rewards in ICP</h3>
+				<h3 class="font-medium mb-2 text-sky-400">Weekly Rewards</h3>
 				ICX is a social network that rewards your activity with weekly ICP/ICX tokens. Engage and contribute to earn rewards, revolutionizing the fusion of social media and token economics in one platform.
 			</div>
 		</div>
