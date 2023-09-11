@@ -27,15 +27,15 @@
 			<Avatar
 				src="https://pbs.twimg.com/profile_images/1700033487405756416/qnNVhWar_400x400.jpg"
 				class="mr-3"
-				alt="Seers Logo"
+				alt="ICX Logo"
 			/>
-			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Seers</span>
+			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">ICX</span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden}>
 			<NavLi href="/">Home</NavLi>
 			<NavLi href="/about">About</NavLi>
-			<NavLi href="/sns">SNS Whitepaper</NavLi>
+			<!-- <NavLi href="/sns">SNS Whitepaper</NavLi> -->
 		</NavUl>
 	</Navbar>
 </div>
