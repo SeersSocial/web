@@ -22,10 +22,14 @@
 			<li><span class="underline decoration-emerald-400">Interoperability:</span> Being built on the Internet Computer, ICX offers seamless integration with other decentralized apps and platforms. This ensures that as the web3 ecosystem grows, ICX users will be at the forefront of innovation and connectivity.</li>
 			<li><span class="underline decoration-emerald-400">Resilient & Censorship-Resistant:</span> Thanks to its decentralized infrastructure, ICX is highly resistant to attacks, censorship, and centralized control. No matter where you are in the world, your voice can be heard without fear of suppression.</li>
 		</ul>
-		<h2 class="font-bold text-pink-500 mt-2">Join the Revolution</h2>
-		<p class="mb-4">
-			The internet is evolving, and ICX is at the forefront of this change. Join us in shaping the future of social networking, where power returns to the people, and creativity thrives unbounded.
+		<h2 class="font-bold text-purple-500 mt-2">Harnessing AI for an Elevated Experience</h2>
+		<p>
+			Incorporating the latest in artificial intelligence, ICX transcends traditional social networking capabilities. Our AI-enhanced features streamline content discovery, tailoring your feed to resonate with your preferences while minimizing echo chambers. AI also powers our advanced content moderation, ensuring a safe and positive environment for all users. Additionally, our smart analytics provide insights for content creators, helping them understand their audience and optimize engagement. With AI at its core, ICX not only redefines social interactions but also augments user experience to new heights.
 		</p>
 		<img src={revolution} alt="" class="rounded h-200" />
+		<h2 class="font-bold text-pink-500 mt-2">Join the Revolution</h2>
+		<p class="mb-4 font-medium">
+			The internet is evolving, and ICX is at the forefront of this change. Join us in shaping the future of social networking, where power returns to the people, and creativity thrives unbounded.
+		</p>
 	</div>
 </section>
