@@ -1,5 +1,6 @@
 <script>
 	import network from "$lib/images/network.jpeg"
+	import revolution from "$lib/images/revolution.jpeg"
 </script>
 <svelte:head>
 	<title>About</title>
@@ -25,5 +26,6 @@
 		<p class="mb-4">
 			The internet is evolving, and ICX is at the forefront of this change. Join us in shaping the future of social networking, where power returns to the people, and creativity thrives unbounded.
 		</p>
+		<img src={revolution} alt="" class="rounded h-200" />
 	</div>
 </section>
