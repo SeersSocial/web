@@ -24,7 +24,7 @@
 		let:toggle
 		color="dark"
 	>
-		<NavBrand href="/">
+		<NavBrand href="/" class="border-none hover:border-none focus:border-none">
 			<img
 				src={logo}
 				class="mr-3 bg-transparent w-10 h-10 rounded-full"
