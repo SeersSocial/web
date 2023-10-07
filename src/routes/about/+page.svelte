@@ -24,6 +24,6 @@
 		<p class="mb-4">
 			The internet is evolving, and ICX is at the forefront of this change. Join us in shaping the future of social networking, where power returns to the people, and creativity thrives unbounded.
 		</p>
-		<img src={network} alt="" />
+		<img src={network} alt="" class="rounded" />
 	</div>
 </section>
