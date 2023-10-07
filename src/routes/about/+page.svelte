@@ -8,14 +8,14 @@
 	<div class="flex flex-col md:w-2/3 gap-4">
 		<div>
 		<h3 class="font-bold text-sky-500">About</h3>
-		<p>ICX is a web3 social network developed by a cohesive group of engineers who joined forces in 2022. 
+		<p class="indent-8">ICX is a web3 social network developed by a cohesive group of engineers who joined forces in 2022. 
 		They have built a strong professional bond through years of collaboration in the Web3 industry and their shared academic experiences. 
 		The team comprises individuals with distinguished qualifications, including holders of PhD degrees, former Googlers, and winners of programming Olympiads.
 		</p>
 		</div>
 		<div>
 		<h3 class="font-bold text-sky-500">Founder</h3>
-		<p>
+		<p class="indent-8">
 			The founder of ICX has over 3 years of experience developing web3 software and more than 10 years of experience in web software development. 
 			He began his web3 journey as a Rust Core Dev, contributing to the development of Polkadot alongside Gavin Wood (Ethereum co-founder). 
 			Additionally, he has an extensive academic background, having worked as a PhD student specializing in the development of algorithms and proving complexity theorems in the area of Automata for Concurrent Program Verification.
@@ -24,8 +24,7 @@
 
 		<div>
 		<h3 class="font-bold text-sky-500">Manifesto: Unleashing the Cyberpunk Web3 Revolution</h3>
-		<p>
-
+		<p class="indent-8">
 We, the pioneers of the cyberpunk era, gather here to establish a new paradigm for social networking—a digital realm where truth, ownership, privacy, and sovereignty reign supreme. Guided by the spirit of decentralization and empowered by Web3 technologies, we envision a future where individuals regain control over their online lives, liberated from the chains of centralized surveillance and manipulation.
 </p>
 <ul class="list-decimal list-inside">
@@ -35,7 +34,7 @@ We, the pioneers of the cyberpunk era, gather here to establish a new paradigm f
 	<li><span class="font-semibold">Sovereignty over Digital Existence:</span> Our web3 social network liberates individuals from the clutches of corporate dominance. We forge a path toward digital sovereignty, where users have full control over their online identities and experiences. No longer shall we be mere data points on a corporate spreadsheet. We champion a user-centric approach, empowering individuals to shape their digital presence and participate in the governance of the platform.</li>
 	<li><span class="font-semibold">Embracing Cyberpunk Aesthetics:</span> Our web3 social network embodies the essence of the cyberpunk ethos. We embrace the dark, neon-lit landscapes of a dystopian future, where technology and rebellion coexist. Through a visually immersive experience, we seek to inspire and challenge the status quo, sparking a collective awakening that transcends boundaries.</li>
 </ul>
-<p class="pt-4">
+<p class="pt-4 class="indent-8"">
 Together, we embark on a mission to redefine social networking, ushering in a new era of cyberpunk-inspired principles. By upholding truth, ownership, privacy, and sovereignty, we will forge a future where the power is in the hands of the individual. Join us in this revolution, where the virtual world is liberated, and a brighter, more authentic future awaits.	
 		</p>
 	</div>
