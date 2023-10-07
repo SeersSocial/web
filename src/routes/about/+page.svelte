@@ -7,14 +7,14 @@
 
 	<div class="flex flex-col md:w-2/3 gap-4">
 		<div>
-		<h3 class="font-bold">About</h3>
+		<h3 class="font-bold text-sky-500">About</h3>
 		<p>ICX is a web3 social network developed by a cohesive group of engineers who joined forces in 2022. 
 		They have built a strong professional bond through years of collaboration in the Web3 industry and their shared academic experiences. 
 		The team comprises individuals with distinguished qualifications, including holders of PhD degrees, former Googlers, and winners of programming Olympiads.
 		</p>
 		</div>
 		<div>
-		<h3 class="font-bold">Founder</h3>
+		<h3 class="font-bold text-sky-500">Founder</h3>
 		<p>
 			The founder of ICX has over 3 years of experience developing web3 software and more than 10 years of experience in web software development. 
 			He began his web3 journey as a Rust Core Dev, contributing to the development of Polkadot alongside Gavin Wood (Ethereum co-founder). 
@@ -23,12 +23,12 @@
 		</div>
 
 		<div>
-		<h3 class="font-bold">Manifesto: Unleashing the Cyberpunk Web3 Revolution</h3>
+		<h3 class="font-bold text-sky-500">Manifesto: Unleashing the Cyberpunk Web3 Revolution</h3>
 		<p>
 
 We, the pioneers of the cyberpunk era, gather here to establish a new paradigm for social networking—a digital realm where truth, ownership, privacy, and sovereignty reign supreme. Guided by the spirit of decentralization and empowered by Web3 technologies, we envision a future where individuals regain control over their online lives, liberated from the chains of centralized surveillance and manipulation.
 </p>
-<ul class="list-decimal">
+<ul class="list-decimal list-inside">
 	<li><span class="font-semibold">Truth as the Foundation:</span> In our cyberpunk web3 social network, truth is the bedrock upon which we build. We reject the era of misinformation, propaganda, and algorithmic manipulation. We vow to foster an environment where authenticity, transparency, and fact-checking prevail. Let us honor truth, enabling genuine connections and empowering individuals to make informed decisions.</li>
 	<li><span class="font-semibold">Empowering Ownership:</span> The power dynamic shifts within our web3 social network. We champion the concept of true ownership, where users control their data, identities, and digital assets. No longer shall centralized entities profit from exploiting our personal information. Through decentralized technologies, we reclaim our digital possessions and harness them for our benefit, fueling innovation and prosperity for all.</li>
 	<li><span class="font-semibold">Privacy as a Fundamental Right:</span> In this cyberpunk future, privacy is not a luxury but an inalienable right. We establish an unwavering commitment to protecting the personal data and online activities of our users. No surveillance, no tracking, and no invasive profiling. We foster a safe haven where individuals can express themselves freely without fear of retribution or intrusion.</li>
