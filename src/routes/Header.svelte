@@ -26,7 +26,7 @@
 		<NavBrand href="/">
 			<Avatar
 				src={logo}
-				class="mr-3"
+				class="mr-3 bg-black"
 				alt="ICX Logo"
 			/>
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
