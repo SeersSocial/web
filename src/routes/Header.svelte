@@ -22,6 +22,7 @@
 		navClass="bg-black text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
 		let:hidden
 		let:toggle
+		color="dark"
 	>
 		<NavBrand href="/">
 			<img
