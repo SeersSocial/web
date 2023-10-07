@@ -24,11 +24,10 @@
 		let:toggle
 	>
 		<NavBrand href="/">
-			<Avatar
+			<img
 				src={logo}
-				class="mr-3 bg-black"
-				classPlaceholder="bg-black"
-				alt="ICX Logo"
+				class="mr-3 bg-black w-10 h-10 rounded-full"
+				alt=""
 			/>
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
