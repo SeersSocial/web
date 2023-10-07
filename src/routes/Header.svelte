@@ -30,8 +30,8 @@
 			/>
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
-		<NavHamburger  style="color:white" />
-		<NavUl {activeUrl} style="color:white">
+		<NavHamburger  style="color:white" btnClass="bg-black"/>
+		<NavUl style="color:white">
 			<NavLi href="/" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Home</NavLi>
 			<NavLi href="/about" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">About</NavLi>
 			<!-- <NavLi href="/sns">SNS Whitepaper</NavLi> -->
