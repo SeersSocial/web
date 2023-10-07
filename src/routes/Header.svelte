@@ -32,7 +32,7 @@
 			/>
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
 		</NavBrand>
-		<NavHamburger  style="color:white" />
+		<NavHamburger  style="color:white" class="focus:outline-none whitespace-normal m-0.5 rounded-lg focus:ring-2 p-1.5 focus:ring-gray-400  bg-black hover:bg-black  ml-3 md:hidden" />
 		<NavUl {hidden} style="color:white">
 			<NavLi href="/" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Home</NavLi>
 			<NavLi href="/about" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">About</NavLi>
