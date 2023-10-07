@@ -26,7 +26,7 @@
 		<NavBrand href="/">
 			<img
 				src={logo}
-				class="mr-3 bg-black w-10 h-10 rounded-full"
+				class="mr-3 bg-transparent w-10 h-10 rounded-full"
 				alt=""
 			/>
 			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
