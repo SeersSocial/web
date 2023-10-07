@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	import logo from '$lib/images/icx-logo-trans.png';
 	import github from '$lib/images/github.svg';
 
 	import {
@@ -25,7 +25,7 @@
 	>
 		<NavBrand href="/">
 			<Avatar
-				src="https://pbs.twimg.com/profile_images/1700033487405756416/qnNVhWar_400x400.jpg"
+				src={logo}
 				class="mr-3"
 				alt="ICX Logo"
 			/>
