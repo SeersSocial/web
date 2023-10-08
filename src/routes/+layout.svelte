@@ -15,7 +15,7 @@
 		<slot />
 	</main>
 
-	<Footer footerType="socialmedia" style="background: black; color:white; opacity: 50%">
+	<Footer footerType="socialmedia" style="background:transparent; color:white;">
 		<hr class="my-6 border-black sm:mx-auto  lg:my-8" />
 		<div class="md:flex md:justify-between">
 		  <div class="mb-6 md:mb-0">
@@ -51,7 +51,6 @@
 			</div>
 		  </div>
 		</div>
-		<hr class="my-6 border-black sm:mx-auto  lg:my-8" />
 		<div class="sm:flex sm:items-center sm:justify-between">
 		  <FooterCopyright href="/" by="ICX." style="color:white"/>
 		  <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
