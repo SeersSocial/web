@@ -8,7 +8,7 @@
 	import { offset } from '@popperjs/core';
 	import Roadmap from './Roadmap.svelte';
 
-	
+	import app from '$lib/images/app.png'
 	
 	export const images = [
   {
@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
-		<img src="https://i.ibb.co/vD1T5YS/Screenshot-2023-05-15-at-13-48-44.png" alt="screenshot"/>
+		<img src={app} alt=""/>
 	</div> 
 </section>
 
