@@ -1,5 +1,6 @@
 <script>
 	import chart from "$lib/images/chart.png"
+	import allocation from "$lib/images/allocation.png"
 </script>
 <svelte:head>
 	<title>Token</title>
@@ -16,6 +17,7 @@
 			<li><span class="underline decoration-emerald-400">Community:</span> 17% of the tokens, amounting to 17 million ICX tokens, are held by the broader community. This allocation is devised to amplify active participation and nurture a deep-rooted sense of ownership and collaborative decision-making within the ecosystem.</li>
 			<li><span class="underline decoration-emerald-400">Treasury:</span> The rest of the tokens, after deducing the allocations for the dev team and community, is safeguarded in the treasury. The primary purpose of the treasury is to fortify the project's long-term resilience, facilitating future developmental strides, forging partnerships, and spearheading other essential initiatives.</li>
 		</ul>
+        <img src={allocation} alt="" class="rounded" />
 		<h2 class="font-bold text-purple-500 mt-2">Inflationary Trajectory</h2>
 		<p>
 			The ICX token model takes shape around a meticulously devised inflationary curve, inaugurating with an inflation rate of 10%. This rate is designed to gracefully taper, converging towards 0% over a clear-cut 12-year duration.
