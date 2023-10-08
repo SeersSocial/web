@@ -30,8 +30,8 @@
 </script>
 
 <svelte:head>
-	<title>ICX: Web3 Social Network</title>
-	<meta name="description" content="ICX: Web3 Social Network" />
+	<title>Web3 Social Network</title>
+	<meta name="description" content="Web3 Social Network" />
 </svelte:head>
 
 <section class="w-full md:flex md:flex-row">
