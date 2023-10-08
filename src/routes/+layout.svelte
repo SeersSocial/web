@@ -23,7 +23,7 @@
 			  src={logo3}
 			  alt="ICX Logo"
 			  name="ICX"
-			  imgClass="rounded-full w-12 p-2"
+			  imgClass="rounded-full w-12 h-12 p-2"
 			/>
 		  </div>
 		  <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

@@ -28,10 +28,10 @@
 		<NavBrand href="/" class="border-none hover:border-none focus:border-none">
 			<img
 				src={logo3}
-				class="mr-3 bg-transparent w-10 h-10 rounded-full"
+				class="mr-3 bg-transparent w-12 h-12 rounded-full"
 				alt=""
 			/>
-			<span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span>
+			<!-- <span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span> -->
 		</NavBrand>
 		<NavHamburger style="background:black" on:click={toggle} class="bg-black border-none outline-none" btnClass="border-none outline-none text-white focus:outline-none whitespace-normal m-0.5 rounded-lg p-1.5 bg-black hover:bg-black  ml-3 md:hidden" />
 		<NavUl {hidden} style="background:black"  class="bg-black" ulClass="p-0 bg-black dark:bg-black text-white dark:text-white rounded-lg border border-black dark:border-black flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
