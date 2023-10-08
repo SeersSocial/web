@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
-		<img src={app} alt=""/>
+		<img src={app} alt="" class="rounded"/>
 	</div> 
 </section>
 
