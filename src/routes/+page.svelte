@@ -43,7 +43,7 @@
 			ICX is the premier decentralized, Twitter-style social network protocol on the Internet Computer. It allows users to engage in distinct, secure, and private social media interactions, including tipping, prediction markets, NFTs, and DAOs. 
 		</div>
 		<div class="flex justify-center">
-			<a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/"><Button size="lg" color="purple">Enter Demo</Button></a>
+			<a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/"><Button size="lg" class="focus:outline-none" color="purple">Enter Demo</Button></a>
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
