@@ -22,7 +22,7 @@
 		<p>
 			The ICX token model takes shape around a meticulously devised inflationary curve, inaugurating with an inflation rate of 10%. This rate is designed to gracefully taper, converging towards 0% over a clear-cut 12-year duration.
 		</p>
-        <h3 class="font-bold mt-2">Comparison with Bitcoin's Monetary Policy</h3>
+        <h3 class="font-bold text-orange-500 mt-2">Comparison with Bitcoin's Monetary Policy</h3>
 		<p class="mb-4 font-medium">
 			While Bitcoin has established its legacy in the cryptocurrency realm with its deflationary issuance model marked by periodic halvings, ICX offers a unique paradigm. It champions a uniform and measured reduction in inflation, crafting a predictable course over its 12-year timeline.
 		</p>
