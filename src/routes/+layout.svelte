@@ -10,7 +10,7 @@
 <div class="app" style="color: white; background: black;">
 	<Header />
 
-	<main class="flex mt-4" >
+	<main class="flex mt-2" >
 		<slot />
 	</main>
 
