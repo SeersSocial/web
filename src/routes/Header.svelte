@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/icx-logo-trans.png';
-	import logo2 from '$lib/images/logo2.png';
+	import logo3 from '$lib/images/logo3.png';
 	import github from '$lib/images/github.svg';
 
 	import {
@@ -27,7 +27,7 @@
 	>
 		<NavBrand href="/" class="border-none hover:border-none focus:border-none">
 			<img
-				src={logo2}
+				src={logo3}
 				class="mr-3 bg-transparent w-10 h-10 rounded-full"
 				alt=""
 			/>
