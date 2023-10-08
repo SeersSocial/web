@@ -9,7 +9,6 @@
 
 <div class="app" style="color: white; background: black;">
 	<Header />
-
 	<main class="flex" >
 		<slot />
 	</main>

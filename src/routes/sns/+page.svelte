@@ -7,7 +7,7 @@
 	<meta name="description" content="SNS" />
 </svelte:head>
 
-<section class="w-full flex flex-col mt-14 text-lg justify-center justify-items-center content-center items-center">
+<section class="w-full flex flex-col text-lg justify-center justify-items-center content-center items-center">
 	<div class="flex flex-col md:w-2/3 gap-4">
 		<div>
 		    <h3 class="font-bold">SNS Whitepaper</h3>
