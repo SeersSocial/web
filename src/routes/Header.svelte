@@ -17,7 +17,7 @@
 	} from 'flowbite-svelte';
 </script>
 
-<div class="relative px-8 bg-black text-white">
+<div class="relative px-2 bg-black text-white">
 	<Navbar
 		style="background:transparent; color: white;"
 		navClass="bg-black text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
