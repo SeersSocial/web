@@ -52,10 +52,10 @@
 </section>
 
 <section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
-	<div >+<span class="numposts"/>K Posts</div>
-	<div>+$<span class="numtvl"/>K TVL</div>
-	<div>+<span class="numu"/>K Users</div>
-	<div>+$<span class="numr"/>K Revenue</div>
+	<div ><span class="numposts"/>K Posts</div>
+	<div>$<span class="numtvl"/>K TVL</div>
+	<div><span class="numu"/>K Users</div>
+	<div>$<span class="numr"/>K Revenue</div>
 </section>
 
 
