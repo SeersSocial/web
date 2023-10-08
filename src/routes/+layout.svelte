@@ -15,7 +15,7 @@
 		<slot />
 	</main>
 
-	<Footer footerType="socialmedia" style="background: black; color:white; opacity: 20%">
+	<Footer footerType="socialmedia" style="background: black; color:white; opacity: 50%">
 		<hr class="my-6 border-black sm:mx-auto  lg:my-8" />
 		<div class="md:flex md:justify-between">
 		  <div class="mb-6 md:mb-0">
