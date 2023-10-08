@@ -34,7 +34,7 @@
 	<meta name="description" content="ICX: Web3 Social Network" />
 </svelte:head>
 
-<section class="w-full md:flex md:flex-row mt-14">
+<section class="w-full md:flex md:flex-row">
 	<div class="flex flex-col gap-4 md:w-1/2 mt-4 p-4">
 		<div class="text-4xl font-bold text-center">
 			Web3 Social Network
