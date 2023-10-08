@@ -35,9 +35,9 @@
 		</NavBrand>
 		<NavHamburger style="background:black" on:click={toggle} class="bg-black border-none outline-none" btnClass="border-none outline-none text-white focus:outline-none whitespace-normal m-0.5 rounded-lg p-1.5 bg-black hover:bg-black  ml-3 md:hidden" />
 		<NavUl {hidden} style="background:black"  class="bg-black" ulClass="p-0 bg-black dark:bg-black text-white dark:text-white rounded-lg border border-black dark:border-black flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-			<NavLi on:click={toggle} href="/" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Home</NavLi>
-			<NavLi on:click={toggle} href="/about" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">About</NavLi>
-			<NavLi on:click={toggle} href="/tokenomics" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Token</NavLi>
+			<NavLi href="/" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Home</NavLi>
+			<NavLi href="/about" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">About</NavLi>
+			<NavLi href="/tokenomics" activeClass="bg-black text-white" nonActiveClass="bg-black text-white">Token</NavLi>
 		</NavUl>
 	</Navbar>
 </div>
