@@ -15,7 +15,7 @@
 		Skeleton,
 		TextPlaceholder
 	} from 'flowbite-svelte';
-	let hidden = false
+	let hidden = true
 </script>
 
 <div class="relative px-2 bg-black text-white">
