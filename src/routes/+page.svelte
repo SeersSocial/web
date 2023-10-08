@@ -40,7 +40,7 @@
 			Web3 Social Network
 		</div>
 		<div class="text-xl p-2">
-			ICX is a decentralized application (dApp) that combines the familiar look and feel of Twitter with cryptocurrency features, enabling users to engage in decentralized social media interactions while seamlessly integrating functionalities such as tipping, prediction markets, NFT sharing, and DAO creation. 
+			ICX is the first decentralized Twitter style social network protocol on the Internet Computer, enabling users to engage in unique, secure and private social media interactions such as tipping, prediction markets, NFTs and DAOs. 
 		</div>
 		<div class="flex justify-center">
 			<a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/"><Button size="lg" color="purple">Enter Demo</Button></a>
