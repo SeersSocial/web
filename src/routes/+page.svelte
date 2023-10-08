@@ -43,7 +43,7 @@
 			ICX is a decentralized application (dApp) that combines the familiar look and feel of Twitter with cryptocurrency features, enabling users to engage in decentralized social media interactions while seamlessly integrating functionalities such as tipping, prediction markets, NFT sharing, and DAO creation. 
 		</div>
 		<div class="flex justify-center">
-			<a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/"><Button size="lg">Enter Demo</Button></a>
+			<a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/"><Button size="lg" color="purple">Enter Demo</Button></a>
 		</div>
 	</div>
 	<div class="flex flex-col md:w-1/2 mt-4 p-4">
