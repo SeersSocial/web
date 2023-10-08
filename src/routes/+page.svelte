@@ -62,12 +62,12 @@
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">
 	<div class="shadow ">
 		<div class="md:flex md:flex-row w-full">
-			<div class="md:w-1/2 p-4">
-				<img src="https://i.ibb.co/ByCqhQx/Screenshot-2023-05-15-at-15-31-23.png" class="rounded" />
-			</div>
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-medium mb-2 text-purple-500">Weekly Rewards</h3>
 				ICX is a social network that rewards your activity with weekly ICP/ICX tokens. Engage and contribute to earn rewards, revolutionizing the fusion of social media and token economics in one platform.
+			</div>
+      <div class="md:w-1/2 p-4">
+				<img src="https://i.ibb.co/ByCqhQx/Screenshot-2023-05-15-at-15-31-23.png" class="rounded" />
 			</div>
 		</div>
 	</div>
@@ -77,14 +77,14 @@
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">
 	<div class="shadow ">
 		<div class="md:flex md:flex-row w-full">
-			<div class="md:w-1/2 p-4">
-				<img src="https://i.ibb.co/DW5WLmt/Screenshot-2023-05-15-at-15-47-16.png" class="rounded" />
-			</div>
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-medium mb-2 text-purple-500">Prediction Markets</h3>
 				<p>In ICX, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community.</p> 
 				<p class="pt-4">By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
 				<p class="pt-4">Prediction markets are resolved using token voting and a decentralised sports oracle.</p>
+			</div>
+      <div class="md:w-1/2 p-4">
+				<img src="https://i.ibb.co/DW5WLmt/Screenshot-2023-05-15-at-15-47-16.png" class="rounded" />
 			</div>
 		</div>
 	</div>
