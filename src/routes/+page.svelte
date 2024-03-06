@@ -42,10 +42,9 @@
 		<div class="text-xl p-2">
 			ICX is a cutting-edge web3 social network designed to embody the true principles of a decentralized internet. Built atop the revolutionary framework of the Internet Computer, it mirrors the functionalities you love on platforms like Twitter, but with enhanced privacy, ownership, and community-driven governance. 
 		</div>
-		<div class="flex justify-center">
+		<!-- <div class="flex justify-center">
       <a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/" role="link" class="text-center font-medium focus:outline-none inline-flex items-center justify-center px-5 py-3 text-base text-white bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700 rounded-lg">Enter Demo</a>
-			<!-- <Button class="text-center font-medium focus:outline-none inline-flex items-center justify-center px-5 py-3 text-base text-white bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700 rounded-lg" href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/" size="lg">Enter Demo</Button> -->
-		</div>
+		</div> -->
 	</div>
 	<!-- <div class="flex flex-col md:w-1/2 mt-4 p-4">
 		<img src={app} alt="" class="rounded-lg"/>
@@ -53,10 +52,32 @@
 </section>
 
 <section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
-	<div ><span class="numposts"/>K Posts</div>
-	<div><span class="numu"/>K Users</div>
-  <div>$<span class="numtvl"/>K TVL</div>
-	<div>$<span class="numr"/>K Revenue</div>
+	<div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:15;"></span>
+      </span>
+      days
+    </div> 
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:10;"></span>
+      </span>
+      hours
+    </div> 
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:24;"></span>
+      </span>
+      min
+    </div> 
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:2;"></span>
+      </span>
+      sec
+    </div>
+  </div>
 </section>
 
 
