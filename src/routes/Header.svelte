@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import logo from '$lib/images/icx-logo-trans.png';
-	import logo3 from '$lib/images/logo3.png';
+	import logo3 from '$lib/images/X-Mark.png';
 	import github from '$lib/images/github.svg';
 
 	import {
