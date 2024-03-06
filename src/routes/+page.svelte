@@ -65,7 +65,7 @@ function updateCountdown() {
 			Internet Computer X
 		</div>
 		<div class="text-xl p-2">
-			ICX is a cutting-edge web3 social network designed to embody the true principles of a decentralized internet. Built atop the revolutionary framework of the Internet Computer, it mirrors the functionalities you love on platforms like Twitter, but with enhanced privacy, ownership, and community-driven governance. 
+			ICX is a cutting-edge web3 social network designed to embody the true principles of a decentralized internet. Built atop the revolutionary Internet Computer, it mirrors the functionalities you love on platforms like Twitter, but with enhanced privacy, ownership, and community-driven governance. 
 		</div>
 		<!-- <div class="flex justify-center">
       <a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/" role="link" class="text-center font-medium focus:outline-none inline-flex items-center justify-center px-5 py-3 text-base text-white bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700 rounded-lg">Enter Demo</a>
