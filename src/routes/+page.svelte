@@ -76,7 +76,7 @@ function updateCountdown() {
 	</div>  -->
 </section>
 
-<section class="w-full flex flex-col gap-4 md:gap-8 text-2xl justify-center mt-4 p-4">
+<section class="w-full flex flex-col gap-4 md:gap-8 text-2xl justify-center mt-2 p-2">
 	<div class="text-4xl font-bold text-center">
     Countdown to release
   </div>
