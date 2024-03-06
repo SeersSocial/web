@@ -33,7 +33,7 @@
 		<NavBrand href="/" class="border-none focus:outline-none hover:border-none focus:border-none">
 			<img
 				src={logo3}
-				class="mr-3 bg-transparent w-12"
+				class="mr-3 bg-transparent w-10"
 				alt=""
 			/>
 			<!-- <span class="self-center whitespace-nowrap text-xl font-semibold">ICX</span> -->
