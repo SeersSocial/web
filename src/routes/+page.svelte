@@ -34,7 +34,7 @@ let minutes = 0;
 let seconds = 0;
 
 function updateCountdown() {
- const targetDate = new Date('2024-12-31T23:59:59').getTime(); // Set your target date/time here
+ const targetDate = new Date('2024-05-01T00:00:00').getTime(); // Set your target date/time here
   const now = new Date().getTime();
   const difference = targetDate - now;
 
