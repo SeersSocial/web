@@ -17,13 +17,7 @@
 		<hr class="my-6 border-black sm:mx-auto  lg:my-8" />
 		<div class="md:flex md:justify-between">
 		  <div class="mb-6 md:mb-0">
-			<FooterBrand
-			  href="https://icx.one"
-			  src={logo3}
-			  alt=""
-			  name="ICX"
-			  imgClass="rounded-full w-12 h-12 p-2"
-			/>
+			<img src={logo3} alt="" class="w-[100px]"/>
 		  </div>
 		  <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
 			<div>
