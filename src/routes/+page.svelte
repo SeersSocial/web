@@ -81,7 +81,7 @@ function updateCountdown() {
     Countdown to release
   </div>
 
-  <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+  <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
         <span >{days}</span>
