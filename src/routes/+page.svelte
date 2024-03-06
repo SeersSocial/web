@@ -52,7 +52,11 @@
 </section>
 
 <section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
-	<div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+	<div class="text-4xl font-bold text-center">
+    Countdown to release
+  </div>
+
+  <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
         <span style="--value:15;"></span>
