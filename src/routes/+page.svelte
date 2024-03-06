@@ -134,7 +134,7 @@ function updateCountdown() {
 				<p>In addition to common functionalities such as posts, likes, and media uploads, we offer cryptocurrency primitives, including transfers, tokenized polls, and airdrops.</p>
 			</div>
       <div class="md:w-1/2 p-4 text-xl">
-				<h3 class="font-medium mb-2 text-[#FBB03B]">Tokenomics</h3>
+				<h3 class="font-medium mb-2 text-[#FBB03B]">Capped Supply</h3>
 				<p>The total supply of tokens is capped at 100 million. This ensures that we will not inflate the supply; instead, we aim to genuinely reward our users.</p>
 			</div>
 		</div>
