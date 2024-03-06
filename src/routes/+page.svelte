@@ -35,7 +35,7 @@
 </svelte:head>
 
 <section class="w-full md:flex md:flex-row">
-	<div class="flex flex-col gap-4 md:w-1/2 mt-4 p-4">
+	<div class="flex flex-col gap-4 mt-4 p-4">
 		<div class="text-4xl font-bold text-center">
 			Internet Computer X
 		</div>
