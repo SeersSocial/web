@@ -77,7 +77,7 @@
     </div> 
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
-        <span style="--value:2;"></span>
+        <span>32</span>
       </span>
       sec
     </div>
