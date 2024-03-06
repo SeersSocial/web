@@ -3,7 +3,7 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from 'flowbite-svelte'
-	import logo3 from "$lib/images/logo3.png"
+	import logo3 from "$lib/images/ICX-Logo-White.png"
  </script>
 
 
@@ -18,9 +18,9 @@
 		<div class="md:flex md:justify-between">
 		  <div class="mb-6 md:mb-0">
 			<FooterBrand
-			  href="https://flowbite.com"
+			  href="https://icx.one"
 			  src={logo3}
-			  alt="ICX Logo"
+			  alt=""
 			  name="ICX"
 			  imgClass="rounded-full w-12 h-12 p-2"
 			/>
