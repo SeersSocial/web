@@ -130,13 +130,12 @@ function updateCountdown() {
 	<div class="shadow ">
 		<div class="md:flex md:flex-row w-full">
 			<div class="md:w-1/2 p-4 text-xl">
-				<h3 class="font-medium mb-2 text-purple-500">Prediction Markets</h3>
-				<p>In ICX, you can create, resolve, and participate in prediction markets. These markets allow users to make predictions about future events, leveraging the collective wisdom of the community.</p> 
-				<p class="pt-4">By accurately predicting outcomes, users have the opportunity to win ICP tokens as a reward for their correct predictions.</p>
-				<p class="pt-4">Prediction markets are resolved using token voting and a decentralised sports oracle.</p>
+				<h3 class="font-medium mb-2 text-[#F15A24]">Crypto Primitives</h3>
+				<p>In addition to common functionalities such as posts, likes, and media uploads, we offer cryptocurrency primitives, including transfers, tokenized polls, and airdrops.</p>
 			</div>
-      <div class="md:w-1/2 p-4">
-				<img src="https://i.ibb.co/DW5WLmt/Screenshot-2023-05-15-at-15-47-16.png" class="rounded" />
+      <div class="md:w-1/2 p-4 text-xl">
+				<h3 class="font-medium mb-2 text-[#FBB03B]">Tokenomics</h3>
+				<p>The total supply of tokens is capped at 100 million. This ensures that we will not inflate the supply; instead, we aim to genuinely reward our users.</p>
 			</div>
 		</div>
 	</div>
