@@ -9,6 +9,7 @@
 	import Roadmap from './Roadmap.svelte';
 
 	import app from '$lib/images/app.png'
+	import { onMount } from 'svelte';
 	
 	export const images = [
   {
@@ -27,6 +28,30 @@
     title: "seers.social",
   }
 ];
+let days = 0;
+let hours = 0;
+let minutes = 0;
+let seconds = 0;
+
+function updateCountdown() {
+ const targetDate = new Date('2024-12-31T23:59:59').getTime(); // Set your target date/time here
+  const now = new Date().getTime();
+  const difference = targetDate - now;
+
+  // Time calculations
+  days = Math.floor(difference / (1000 * 60 * 60 * 24));
+  hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+  seconds = Math.floor((difference % (1000 * 60)) / 1000);
+}
+
+  const onmount = () => {
+    // Update the countdown every 1 second
+    const intervalID = setInterval(updateCountdown, 1000);
+  }
+
+  onMount(onmount)
+
 </script>
 
 <svelte:head>
@@ -59,25 +84,25 @@
   <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
-        <span >30</span>
+        <span >{days}</span>
       </span>
       days
     </div> 
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
-        <span >12</span>
+        <span>{hours}</span>
       </span>
       hours
     </div> 
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
-        <span >48</span>
+        <span >{minutes}</span>
       </span>
       min
     </div> 
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
-        <span>32</span>
+        <span>{seconds}</span>
       </span>
       sec
     </div>
