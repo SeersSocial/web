@@ -51,7 +51,7 @@
 	</div>  -->
 </section>
 
-<section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
+<section class="w-full flex flex-col gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
 	<div class="text-4xl font-bold text-center">
     Countdown to release
   </div>
