@@ -114,9 +114,9 @@ function updateCountdown() {
 	<div class="shadow ">
 		<div class="md:flex md:flex-row w-full">
 			<div class="md:w-1/2 p-4 text-xl">
-				<h3 class="font-medium mb-2 text-purple-500">Weekly Rewards</h3>
-				ICX is a social network that rewards your activity with weekly ICP/ICX tokens. Engage and contribute to earn rewards, revolutionizing the fusion of social media and token economics in one platform.
-			</div>
+				<h3 class="font-medium mb-2 text-[#29ABE2]">DAO Controlled</h3>
+				ICX operates as a social network governed by a DAO. Each update to the dapp must be approved through a voting mechanism that utilizes locked ICX tokens.
+      </div>
       <div class="md:w-1/2 p-4">
 				<img src="https://i.ibb.co/ByCqhQx/Screenshot-2023-05-15-at-15-31-23.png" class="rounded" />
 			</div>
