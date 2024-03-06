@@ -4,7 +4,7 @@
 <section class="flex py-10 text-white sm:py-16 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 w-full md:max-w-full">
         <div class="max-w-2xl md:max-w-full mx-auto text-center">
-            <h2 class="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Roadmap 2023</h2>
+            <h2 class="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Roadmap 2024</h2>
             <p class="md:max-w-full max-w-lg mx-auto mt-4 text-base leading-relaxed text-white-600">Our roadmap for the rest of the year includes decentralizing and polishing our current features and UI/UX.</p>
         </div>
 
@@ -18,7 +18,7 @@
                     </svg>
                 </div>
                 <div class="ml-6">
-                    <h3 class="text-lg font-semibold text-fuchsia-300">Decentralise ICX using the SNS</h3>
+                    <h3 class="text-lg font-semibold text-fuchsia-500">Decentralise ICX using the SNS</h3>
                     <p class="mt-4 text-base text-white-100">Decentralize ICX by distributing 31% of the token supply and establishing an SNS DAO.</p>
                 </div>
             </li>
@@ -32,7 +32,7 @@
                     </svg>
                 </div>
                 <div class="ml-6">
-                    <h3 class="text-lg font-semibold text-fuchsia-300">Improve UI/UX and X features</h3>
+                    <h3 class="text-lg font-semibold text-fuchsia-500">Improve UI/UX and X features</h3>
                     <p class="mt-4 text-base text-white-600">Complete the new UI/UX implementation and refine all core X features.</p>
                 </div>
             </li>
@@ -44,7 +44,7 @@
                     </svg>
                 </div>
                 <div class="ml-6">
-                    <h3 class="text-lg font-semibold text-fuchsia-300">Re-launch prediction markets</h3>
+                    <h3 class="text-lg font-semibold text-fuchsia-500">Re-launch prediction markets</h3>
                     <p class="mt-4 text-base text-white-600">Implement the resolution of prediction markets through token voting and a decentralized sports oracle, then re-enable prediction markets.</p>
                 </div>
             </li>
