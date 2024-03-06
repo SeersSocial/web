@@ -37,7 +37,7 @@
 <section class="w-full md:flex md:flex-row">
 	<div class="flex flex-col gap-4 md:w-1/2 mt-4 p-4">
 		<div class="text-4xl font-bold text-center">
-			Web 3.0 Social Network
+			Internet Computer X
 		</div>
 		<div class="text-xl p-2">
 			ICX is a cutting-edge web3 social network designed to embody the true principles of a decentralized internet. Built atop the revolutionary framework of the Internet Computer, it mirrors the functionalities you love on platforms like Twitter, but with enhanced privacy, ownership, and community-driven governance. 
@@ -47,9 +47,9 @@
 			<!-- <Button class="text-center font-medium focus:outline-none inline-flex items-center justify-center px-5 py-3 text-base text-white bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700 rounded-lg" href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/" size="lg">Enter Demo</Button> -->
 		</div>
 	</div>
-	<div class="flex flex-col md:w-1/2 mt-4 p-4">
+	<!-- <div class="flex flex-col md:w-1/2 mt-4 p-4">
 		<img src={app} alt="" class="rounded-lg"/>
-	</div> 
+	</div>  -->
 </section>
 
 <section class="w-full flex flex-row gap-4 md:gap-8 text-2xl justify-center mt-8 p-8">
