@@ -45,7 +45,7 @@ function updateCountdown() {
   minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
   seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-  update = true;
+  updated = true;
 }
 
   const onmount = () => {
