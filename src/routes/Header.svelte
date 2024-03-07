@@ -22,7 +22,7 @@
 	let width = 0;
 </script>
 <svelte:window bind:innerWidth={width} />
-<div class="relative px-2 bg-[#1E005D] text-white">
+<div class="relative px-2 bg-black text-white">
 	<Navbar
 		style="background:transparent; color: white;"
 		navClass="bg-[#1E005D] text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
