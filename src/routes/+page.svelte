@@ -62,7 +62,6 @@ function updateCountdown() {
 	<meta name="description" content="ICX" />
 </svelte:head>
 
-{#if updated}
 <section class="w-full md:flex md:flex-row">
 	<div class="flex flex-col gap-4 mt-4 p-4">
 		<div class="text-4xl font-bold text-center">
@@ -84,6 +83,7 @@ function updateCountdown() {
 	<div class="text-2xl font-bold text-center">
     Countdown to testnet release
   </div>
+  {#if updated}
 
   <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
@@ -111,6 +111,7 @@ function updateCountdown() {
       sec
     </div>
   </div>
+  {/if}
 </section>
 
 
@@ -146,5 +147,3 @@ function updateCountdown() {
 </section>
 
 <Roadmap></Roadmap>
-
-{/if}
