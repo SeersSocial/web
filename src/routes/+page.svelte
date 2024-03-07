@@ -78,7 +78,7 @@ function updateCountdown() {
 </section>
 
 
-<section class="w-full flex flex-col gap-4 md:gap-8 text-xl md:text-2xl justify-center m-2 p-2">
+<section class="w-full flex flex-col md:gap-8 text-xl md:text-2xl justify-center m-2 p-2">
 	<div class="text-2xl font-bold text-center">
     Countdown to testnet release
   </div>
