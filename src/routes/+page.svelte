@@ -32,6 +32,7 @@ let days = 0;
 let hours = 0;
 let minutes = 0;
 let seconds = 0;
+let updated = false;
 
 function updateCountdown() {
  const targetDate = new Date('2024-05-10T00:00:00').getTime(); // Set your target date/time here
@@ -43,6 +44,8 @@ function updateCountdown() {
   hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
   seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+  update = true;
 }
 
   const onmount = () => {
@@ -59,6 +62,7 @@ function updateCountdown() {
 	<meta name="description" content="ICX" />
 </svelte:head>
 
+{#if updated}
 <section class="w-full md:flex md:flex-row">
 	<div class="flex flex-col gap-4 mt-4 p-4">
 		<div class="text-4xl font-bold text-center">
@@ -143,112 +147,4 @@ function updateCountdown() {
 
 <Roadmap></Roadmap>
 
-<style>
-
-body{
-	counter-reset: nump;
-	counter-reset: numt;
-	counter-reset: numr;
-}
-
-@property --nump {
-  syntax: "<integer>";
-  initial-value: 12;
-  inherits: false;
-}
-
-.numposts {
-  animation: postscnt 3s 1 ease-out;
-  counter-reset: nump var(--nump);
-  font: 500 24px system-ui;
-}
-.numposts::before {
-	content: counter(nump);
-}
-
-
-@keyframes postscnt {
-  from {
-    --nump: 0;
-  }
-  to {
-    --nump: 12;
-  }
-}
-
-@property --numt {
-  syntax: "<integer>";
-  initial-value: 15;
-  inherits: false;
-}
-
-.numtvl {
-  animation: tvlcnt 3s 1 ease-out;
-  counter-reset: numt var(--numt);
-  font: 500 24px system-ui;
-}
-.numtvl::before {
-	content: counter(numt);
-}
-
-@keyframes tvlcnt {
-  from {
-    --numt: 0;
-  }
-  to {
-    --numt: 15;
-  }
-}
-
-@property --numu {
-  syntax: "<integer>";
-  initial-value: 3;
-  inherits: false;
-}
-
-.numu {
-  animation: ucnt 3s 1 ease-out;
-  counter-reset: numu var(--numu);
-  font: 500 24px system-ui;
-}
-.numu::before {
-	content: counter(numu);
-}
-
-@keyframes ucnt {
-  from {
-    --numu: 0;
-  }
-  to {
-    --numu: 3;
-  }
-}
-
-
-
-
-@property --numr {
-  syntax: "<integer>";
-  initial-value: 25;
-  inherits: false;
-}
-
-.numr {
-  animation: rcnt 3s 1 ease-out;
-  counter-reset: numr var(--numr);
-  font: 500 24px system-ui;
-}
-.numr::before {
-	content: counter(numr);
-}
-
-@keyframes rcnt {
-  from {
-    --numr: 0;
-  }
-  to {
-    --numr: 25;
-  }
-}
-
-</style>
+{/if}
