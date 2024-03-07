@@ -10,7 +10,7 @@
 <section class="w-full flex flex-col text-lg justify-center justify-items-center content-center items-center">
 
 	<div class="flex flex-col md:w-2/3 gap-4">
-		<h2 class="font-bold text-emerald-500">Tokenomics Overview</h2>
+		<h2 class="font-bold text-[#29ABE2]">Token Economics</h2>
 		<p class="">The heart of ICX tokenomics revolves around avoiding inflation by keeping a fixed supply of 100 million ICX tokens. The distribution of these tokens is delineated as follows:</p>
 		<ul class="list-inside space-y-4">
 			<li><span class="underline decoration-emerald-400">Dev Team:</span> 15% of the total supply, equating to 15 million ICX tokens, is reserved for the development team. These tokens are vested over a span of 4 years, underscoring the team's long-term dedication to the project and synchronizing their interests with the continued evolution and success of the platform.</li>
