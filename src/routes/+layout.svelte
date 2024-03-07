@@ -7,7 +7,7 @@
  </script>
 
 
-<div class="text-white bg-gradient-to-r from-[#0E031F] to-[#281447]">
+<div class="flex flex-col text-white bg-gradient-to-r from-[#0E031F] to-[#281447]">
 	<Header />
 	<main class="flex" >
 		<slot />
