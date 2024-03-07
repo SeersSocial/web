@@ -23,6 +23,7 @@
 			<div>
 			  <h2 class="mb-6 text-sm font-semibold uppercase">Resources</h2>
 			  <FooterLinkGroup>
+				<FooterLink liClass="mb-4" href="https://company-259627.frontify.com/d/JRoaqBfDMY1t" style="color:white">Brand Guidelines</FooterLink>
 				<FooterLink liClass="mb-4" href="/" style="color:white">Documentation</FooterLink>
 				<FooterLink liClass="mb-4" href="/" style="color:white">FAQ</FooterLink>
 			  </FooterLinkGroup>
