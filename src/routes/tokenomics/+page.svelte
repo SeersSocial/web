@@ -25,6 +25,7 @@
 		<p class="">Every year, a portion of the treasury will be used to reward users of the dApp by distributing neurons. In this way, the DAO will become progressively more decentralized.</p>
 	</div>
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
-		You can track governance parameteres and follow token transactions and neuron activity in the <A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">dashboard of our SNS</A>.
+		You can track governance parameteres and follow token transactions and neuron activity in the dashboard of our SNS. 
+		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai" />
 	</div>
 </section>
