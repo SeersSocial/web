@@ -4,7 +4,7 @@
 <section class="flex py-10 text-white sm:py-16 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 w-full md:max-w-full">
         <div class="max-w-2xl md:max-w-full mx-auto text-center">
-            <h2 class="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">Roadmap 2024</h2>
+            <h2 class="text-3xl font-bold leading-tight">Roadmap 2024</h2>
             <p class="md:max-w-full max-w-lg mx-auto mt-4 text-base leading-relaxed text-white-600">Our roadmap for the rest of the year includes decentralizing and polishing our current features and UI/UX.</p>
         </div>
 

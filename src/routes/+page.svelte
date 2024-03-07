@@ -62,7 +62,7 @@ function updateCountdown() {
 
 <section class="w-full md:flex md:flex-row">
 	<div class="flex flex-col gap-4 mt-4 p-4">
-		<div class="text-4xl font-bold text-center">
+		<div class="text-4xl md:text-5xl font-bold text-center">
 			<span class="text-transparent bg-clip-text bg-gradient-to-r to-[#6A85F1] from-[#C572EF]">Internet Computer X</span>
 		</div>
 		<div class="text-xl p-2">
