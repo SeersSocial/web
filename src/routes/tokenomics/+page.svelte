@@ -26,6 +26,6 @@
 	</div>
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
 		You can track governance parameteres and follow token transactions and neuron activity in the dashboard of our SNS. 
-		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai" />
+		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Dashboard</A>
 	</div>
 </section>
