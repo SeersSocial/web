@@ -18,9 +18,8 @@
 			<li><span class="text-[#FBB03B]">Liquidity:</span> 2% of the tokens are being used to provide liquidity, divided between Sonic and ICPSwap DEXs.</li>
 			<li><span class="text-[#FBB03B]">Treasury:</span> The rest of the tokens (66%), is safeguarded in the treasury. The primary purpose of the treasury is to fortify the project's long-term resilience, facilitating future developmental strides, forging partnerships, and spearheading other essential initiatives.</li>
 		</ul>
-        <img src={allocation} alt="" class="rounded" />
     </div>
-	<div class="flex flex-col md:w-2/3 gap-4">
+	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
 		<h2 class="font-bold text-[#29ABE2]">Decentralisation</h2>
 		<p class="">Every year, a portion of the treasury will be used to reward users of the dApp by distributing neurons. In this way, the DAO will become progressively more decentralized.</p>
 	</div>
