@@ -9,7 +9,7 @@
 
 <div class="flex flex-col text-white bg-gradient-to-r from-[#0E031F] to-[#281447]">
 	<Header />
-	<main class="flex" >
+	<main class="flex flex-col" >
 		<slot />
 	</main>
 
