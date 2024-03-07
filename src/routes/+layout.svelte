@@ -7,7 +7,7 @@
  </script>
 
 
-<div class="app" style="color: white; background: black">
+<div class="app" style="color: white; background-color: #1E005D">
 	<Header />
 	<main class="flex" >
 		<slot />
