@@ -21,7 +21,7 @@
 		</ul>
     </div>
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
-		<h2 class="font-bold text-[#29ABE2]">Decentralisation</h2>
+		<h2 class="font-bold text-[#ED1E79]">Decentralisation</h2>
 		<p class="">Every year, a portion of the treasury will be used to reward users of the dApp by distributing neurons. In this way, the DAO will become progressively more decentralized.</p>
 	</div>
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
