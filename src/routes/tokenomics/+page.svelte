@@ -25,6 +25,11 @@
 		<p class="">Every year, a portion of the treasury will be used to reward users of the dapp by distributing neurons. In this way, the DAO will become progressively more decentralized.</p>
 	</div>
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
+		<h2 class="font-bold text-[#F15A24]">Smallest Unit</h2>
+		<p class="">A DOM is the smallest unit of ICX currency. 1 DOM = 0.00000001 ICX</p>
+	</div>
+	
+	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
 		You can track governance parameteres and follow token transactions and neuron activity in the dashboard of our SNS. 
 		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Open SNS Dashboard</A>
 	</div>
