@@ -26,7 +26,7 @@
 	</div>
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
 		<h2 class="font-bold text-[#F15A24]">Smallest Unit</h2>
-		<p class="">Similar to satoshis for Bitcoin, a dominic (dom) is the smallest unit of the ICX token.</p><p>1 dom = 0.00000001 ICX. 1 ICX = 100,000,000 doms.</p>
+		<p class="">Similar to satoshis in Bitcoin, a dominic (dom) is the smallest unit of the ICX token.</p><p>1 dom = 0.00000001 ICX. 1 ICX = 100,000,000 doms.</p>
 	</div>
 	
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
