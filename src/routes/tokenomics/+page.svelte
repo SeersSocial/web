@@ -6,6 +6,14 @@
 	import { initSnsWrapper, neuronSubaccount } from "@dfinity/sns";
 	import { onMount } from "svelte";
 
+
+	let neurons = []
+	let totalStake = BigInt(0)
+	let totalNeurons = BigInt(0)
+	let totalMaturity = BigInt(0)
+	let totalMaturityDevs = BigInt(0)
+	let totalStakedMaturity = BigInt(0)
+
 	const readGovernance = async () => {
 		console.log("executing read governance")
 		const agent = defaultAgent();
@@ -18,13 +26,7 @@
 		});
 
 		let beforeNeuronId = undefined
-		let neurons = []
-		let totalStake = BigInt(0)
-		let totalNeurons = BigInt(0)
-		let totalMaturity = BigInt(0)
-		let totalMaturityDevs = BigInt(0)
-		let totalStakedMaturity = BigInt(0)
-
+	
 		do {
 			neurons = await snsWrapper.listNeurons({ beforeNeuronId })
 			for (let i = 0; i < neurons.length; i++) {
@@ -85,7 +87,14 @@
 	</div>
 	
 	<div class="flex flex-col md:w-2/3 gap-4 mt-2">
-		You can track governance parameteres and follow token transactions and neuron activity in the dashboard of our SNS. 
+		You can track governance parameters and follow token transactions and neuron activity in the dashboard of our SNS. 
 		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Open SNS Dashboard</A>
+		<ul class="list-inside space-y-4">
+			<li>Total Neurons: {totalNeurons}</li>
+			<li>Total Staked: {totalStake/10_000_000n}</li>
+			<li>Total Maturity: {totalMaturity/10_000_000n}</li>
+			<li>Total Maturity Devs: {totalMaturityDevs/10_000_000n}</li>
+			<li>Total Staked Maturity: {totalStakedMaturity/10_000_000n}</li>
+		</ul>
 	</div>
 </section>
