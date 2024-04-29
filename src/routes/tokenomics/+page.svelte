@@ -2,7 +2,7 @@
 	import { A } from "flowbite-svelte";
 
 	import { Principal } from "@dfinity/principal";
-	import { defaultAgent } from "@dfinity/utils";
+	import { defaultAgent, uint8ArrayToHexString } from "@dfinity/utils";
 	import { initSnsWrapper, neuronSubaccount } from "@dfinity/sns";
 	import { onMount } from "svelte";
 
@@ -22,15 +22,20 @@
 		let totalStake = BigInt(0)
 		let totalNeurons = BigInt(0)
 		let totalMaturity = BigInt(0)
+		let totalMaturityDevs = BigInt(0)
 
 		do {
 			neurons = await snsWrapper.listNeurons({ beforeNeuronId })
 			for (let i = 0; i < neurons.length; i++) {
-				console.log(neurons[i])
 				totalStake += neurons[i].cached_neuron_stake_e8s
 				totalNeurons += 1n;
 				totalMaturity += neurons[i].maturity_e8s_equivalent
+				if (totalStake == BigInt(1_000_000)) {
+					totalMaturityDevs += totalMaturity
+				}
 				beforeNeuronId = neurons[i].id[0];
+				// @ts-ignore
+				console.log(uint8ArrayToHexString(neurons[i].id[0].id))
 			}
 		} while (neurons.length > 0);
 		
