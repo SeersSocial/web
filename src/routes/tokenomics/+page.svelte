@@ -87,7 +87,6 @@
 			<li>Total Neurons: {totalNeurons}</li>
 			<li>Total Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()}</li>
 			<li>Total Maturity: {Number(totalMaturity/100_000_000n).toLocaleString()}</li>
-			<li>Total Maturity Devs: {Number(totalMaturityDevs/100_000_000n).toLocaleString()}</li>
 			<li>Total Staked Maturity: {Number(totalStakedMaturity/100_000_000n).toLocaleString()}</li>
 		</ul>
 	</div>
