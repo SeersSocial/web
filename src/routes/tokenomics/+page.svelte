@@ -32,7 +32,7 @@
 				totalNeurons += 1n;
 				totalMaturity += neurons[i].maturity_e8s_equivalent
 				if (neurons[i].cached_neuron_stake_e8s == BigInt(100000000000000)) {
-					totalMaturityDevs += neurons[i].cached_neuron_stake_e8s
+					totalMaturityDevs += neurons[i].maturity_e8s_equivalent
 				}
 				if (neurons[i].staked_maturity_e8s_equivalent.length > 0) {
 					// @ts-ignore
