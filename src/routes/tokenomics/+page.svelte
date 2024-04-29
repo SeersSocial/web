@@ -91,6 +91,7 @@
 			<li>Neurons: {totalNeurons}</li>
 			<li>Max Token Supply: {Number((tokenSupply+totalMaturity+totalStakedMaturity-totalMaturityDevs)/100_000_000n).toLocaleString()} ICX</li>
 			<li>Token Supply: {Number(tokenSupply/100_000_000n).toLocaleString()} ICX</li>
+			<li>Treasury: {Number(treasury/100_000_000n).toLocaleString()} ICX</li>
 			<li>Circulating Token Supply: {Number((tokenSupply+totalMaturity+totalStakedMaturity-totalMaturityDevs-devStake-treasury)/100_000_000n).toLocaleString()} ICX</li>
 			<li>Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()} ICX</li>
 			<li>Maturity: {Number((totalMaturity-totalMaturityDevs)/100_000_000n).toLocaleString()} ICX</li>
