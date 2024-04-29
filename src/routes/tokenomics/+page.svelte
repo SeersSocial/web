@@ -3,13 +3,13 @@
 
 	import { ECDSAKeyIdentity as Identity } from "@dfinity/identity";
 	import { Principal } from "@dfinity/principal";
-	import { createAgent } from "@dfinity/utils";
+	import { defaultAgent } from "@dfinity/utils";
 	import { initSnsWrapper } from "@dfinity/sns";
 	import { onMount } from "svelte";
 
 	const readGovernance = async () => {
 		console.log("executing read governance")
-		const agent = await createAgent({ identity: await Identity.generate() });
+		const agent = defaultAgent();
 		console.log(agent)
 		const snsWrapper = await initSnsWrapper({
 			rootOptions: {

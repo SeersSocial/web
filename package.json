@@ -40,6 +40,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@dfinity/agent": "^1.2.1",
 		"@dfinity/identity": "^1.2.1",
 		"@dfinity/principal": "^1.2.1",
 		"@dfinity/sns": "^3.0.3",
