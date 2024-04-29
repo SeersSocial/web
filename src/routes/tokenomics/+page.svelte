@@ -17,7 +17,7 @@
 			agent,
 			certified: false,
 		});
-		console.log(snsWrapper)
+		console.log(snsWrapper.listNeurons({}))
 		const { metadata, swapState } = snsWrapper;
 		console.log(metadata)
 		const [data, token] = await metadata({});
