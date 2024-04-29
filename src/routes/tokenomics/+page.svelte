@@ -85,9 +85,9 @@
 		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Open SNS Dashboard</A>
 		<ul class="list-inside space-y-4">
 			<li>Neurons: {totalNeurons}</li>
-			<li>Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()}</li>
-			<li>Maturity: {Number(totalMaturity/100_000_000n).toLocaleString()}</li>
-			<li>Staked Maturity: {Number(totalStakedMaturity/100_000_000n).toLocaleString()}</li>
+			<li>Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()} ICX</li>
+			<li>Maturity: {Number(totalMaturity/100_000_000n).toLocaleString()} ICX</li>
+			<li>Staked Maturity: {Number(totalStakedMaturity/100_000_000n).toLocaleString()} ICX</li>
 		</ul>
 	</div>
 </section>
