@@ -1,7 +1,6 @@
 <script>
 	import { A } from "flowbite-svelte";
 
-	import { ECDSAKeyIdentity as Identity } from "@dfinity/identity";
 	import { Principal } from "@dfinity/principal";
 	import { defaultAgent } from "@dfinity/utils";
 	import { initSnsWrapper } from "@dfinity/sns";
@@ -11,25 +10,25 @@
 		console.log("executing read governance")
 		const agent = defaultAgent();
 		console.log(agent)
-		const snsWrapper = await initSnsWrapper({
-			rootOptions: {
-				canisterId: Principal.fromText("u67kc-jyaaa-aaaaq-aabpq-cai"),
-			},
-			agent,
-			certified: false,
-		});
-		console.log(snsWrapper)
-		const { metadata, swapState } = snsWrapper;
-		console.log(metadata)
-		const [data, token] = await metadata({});
+		// const snsWrapper = await initSnsWrapper({
+		// 	rootOptions: {
+		// 		canisterId: Principal.fromText("u67kc-jyaaa-aaaaq-aabpq-cai"),
+		// 	},
+		// 	agent,
+		// 	certified: false,
+		// });
+		// console.log(snsWrapper)
+		// const { metadata, swapState } = snsWrapper;
+		// console.log(metadata)
+		// const [data, token] = await metadata({});
 
-		console.log("SNS:", data, token, swapState);
+		// console.log("SNS:", data, token, swapState);
 	}
 
 	onMount(readGovernance)
 </script>
 <svelte:head>
-	<title>Token</title>
+	<title>Token Economics</title>
 	<meta name="description" content="Token Economics" />
 </svelte:head>
 
