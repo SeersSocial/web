@@ -84,10 +84,10 @@
 		You can track governance parameters and follow token transactions and neuron activity in the dashboard of our SNS. 
 		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Open SNS Dashboard</A>
 		<ul class="list-inside space-y-4">
-			<li>Total Neurons: {totalNeurons}</li>
-			<li>Total Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()}</li>
-			<li>Total Maturity: {Number(totalMaturity/100_000_000n).toLocaleString()}</li>
-			<li>Total Staked Maturity: {Number(totalStakedMaturity/100_000_000n).toLocaleString()}</li>
+			<li>Neurons: {totalNeurons}</li>
+			<li>Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()}</li>
+			<li>Maturity: {Number(totalMaturity/100_000_000n).toLocaleString()}</li>
+			<li>Staked Maturity: {Number(totalStakedMaturity/100_000_000n).toLocaleString()}</li>
 		</ul>
 	</div>
 </section>
