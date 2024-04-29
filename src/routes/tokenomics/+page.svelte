@@ -2,6 +2,30 @@
 	import chart from "$lib/images/chart.png"
 	import allocation from "$lib/images/allocation.png"
 	import { A } from "flowbite-svelte";
+	import { Principal } from "@dfinity/principal";
+	import { createAgent } from "@dfinity/utils";
+import { initSnsWrapper } from "@dfinity/sns";
+	import { onMount } from "svelte";
+
+const readGovernance = async () => {
+
+const agent = await createAgent({});
+
+const snsWrapper = await initSnsWrapper({
+  rootOptions: {
+    canisterId: Principal.fromText("u67kc-jyaaa-aaaaq-aabpq-cai"),
+  },
+  agent,
+  certified: false,
+});
+
+const { metadata, swapState } = snsWrapper;
+const [data, token] = await metadata({});
+
+console.log("SNS:", data, token, swapState);
+}
+
+onMount(readGovernance)
 </script>
 <svelte:head>
 	<title>Token</title>
