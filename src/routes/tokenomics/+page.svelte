@@ -45,12 +45,6 @@
 				// console.log(uint8ArrayToHexString(neurons[i].id[0].id))
 			}
 		} while (neurons.length > 0);
-		// staked_maturity_e8s_equivalent []
-		console.log("Total stake: " + totalStake)
-		console.log("Total maturity: " + totalMaturity)
-		console.log("Total maturity devs: " + totalMaturityDevs)
-		console.log("Total staked maturity: " + totalStakedMaturity)
-		console.log("Total neurons: " + totalNeurons)
 		
 		const { metadata, swapState } = snsWrapper;
 		const [data, token] = await metadata({});
