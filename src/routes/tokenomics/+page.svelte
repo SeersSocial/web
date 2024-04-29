@@ -41,6 +41,7 @@
 		
 		console.log("Total stake: " + totalStake)
 		console.log("Total maturity: " + totalMaturity)
+		console.log("Total maturity devs: " + totalMaturityDevs)
 		console.log("Total neurons: " + totalNeurons)
 		
 		const { metadata, swapState } = snsWrapper;
