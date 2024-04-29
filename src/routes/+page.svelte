@@ -80,10 +80,10 @@ function updateCountdown() {
 
 <section class="w-full flex flex-col md:gap-8 text-xl md:text-2xl justify-center m-2 p-2">
 	<div class="text-2xl font-bold text-center">
-    Countdown to testnet release
+    Next release coming soon!
   </div>
   
-  <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
+  <!-- <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span class="countdown font-mono text-5xl">
         <span >{days}</span>
@@ -108,7 +108,7 @@ function updateCountdown() {
       </span>
       sec
     </div>
-  </div>
+  </div> -->
 </section>
 
 <section class="w-full flex flex-row gap-8 text-2xl justify-center mt-4 p-4">

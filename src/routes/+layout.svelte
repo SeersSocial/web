@@ -31,7 +31,7 @@
 			<div>
 			  <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white">Follow us</h2>
 			  <FooterLinkGroup>
-				<FooterLink liClass="mb-4" target="_blank"  style="color:white" href="https://twitter.com/icx_one">Twitter</FooterLink>
+				<FooterLink liClass="mb-4" target="_blank"  style="color:white" href="https://twitter.com/icxdao">Twitter</FooterLink>
 				<!-- <FooterLink liClass="mb-4" href="/">Discord</FooterLink> -->
 			  </FooterLinkGroup>
 			</div>
