@@ -40,6 +40,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@dfinity/identity": "^1.2.1",
 		"@dfinity/principal": "^1.2.1",
 		"@dfinity/sns": "^3.0.3",
 		"@fontsource/roboto": "^4.5.8",
