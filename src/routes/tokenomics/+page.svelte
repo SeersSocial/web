@@ -9,7 +9,6 @@
 	const readGovernance = async () => {
 		console.log("executing read governance")
 		const agent = defaultAgent();
-		console.log(agent)
 		const snsWrapper = await initSnsWrapper({
 			rootOptions: {
 				canisterId: Principal.fromText("u67kc-jyaaa-aaaaq-aabpq-cai"),
@@ -26,6 +25,7 @@
 		do {
 			neurons = await snsWrapper.listNeurons({ beforeNeuronId })
 			for (let i = 0; i < neurons.length; i++) {
+				console.log(neurons[i])
 				totalStake += neurons[i].cached_neuron_stake_e8s
 				totalNeurons += 1n;
 				beforeNeuronId = neurons[i].id[0];
@@ -33,10 +33,9 @@
 		} while (neurons.length > 0);
 		
 		console.log("Total stake: " + totalStake)
-		console.log("Total neurons: " + totalNeurons
-		)
+		console.log("Total neurons: " + totalNeurons)
+		
 		const { metadata, swapState } = snsWrapper;
-		console.log(metadata)
 		const [data, token] = await metadata({});
 
 		console.log("SNS:", data, token, swapState);
