@@ -10,19 +10,19 @@
 		console.log("executing read governance")
 		const agent = defaultAgent();
 		console.log(agent)
-		// const snsWrapper = await initSnsWrapper({
-		// 	rootOptions: {
-		// 		canisterId: Principal.fromText("u67kc-jyaaa-aaaaq-aabpq-cai"),
-		// 	},
-		// 	agent,
-		// 	certified: false,
-		// });
-		// console.log(snsWrapper)
-		// const { metadata, swapState } = snsWrapper;
-		// console.log(metadata)
-		// const [data, token] = await metadata({});
+		const snsWrapper = await initSnsWrapper({
+			rootOptions: {
+				canisterId: Principal.fromText("u67kc-jyaaa-aaaaq-aabpq-cai"),
+			},
+			agent,
+			certified: false,
+		});
+		console.log(snsWrapper)
+		const { metadata, swapState } = snsWrapper;
+		console.log(metadata)
+		const [data, token] = await metadata({});
 
-		// console.log("SNS:", data, token, swapState);
+		console.log("SNS:", data, token, swapState);
 	}
 
 	onMount(readGovernance)
