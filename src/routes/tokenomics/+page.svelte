@@ -85,10 +85,10 @@
 		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Open SNS Dashboard</A>
 		<ul class="list-inside space-y-4">
 			<li>Total Neurons: {totalNeurons}</li>
-			<li>Total Staked: {Number(totalStake/10_000_000n).toLocaleString()}</li>
-			<li>Total Maturity: {Number(totalMaturity/10_000_000n).toLocaleString()}</li>
-			<li>Total Maturity Devs: {Number(totalMaturityDevs/10_000_000n).toLocaleString()}</li>
-			<li>Total Staked Maturity: {Number(totalStakedMaturity/10_000_000n).toLocaleString()}</li>
+			<li>Total Staked: {Number(totalStake/100_000_000n).toLocaleString()}</li>
+			<li>Total Maturity: {Number(totalMaturity/100_000_000n).toLocaleString()}</li>
+			<li>Total Maturity Devs: {Number(totalMaturityDevs/100_000_000n).toLocaleString()}</li>
+			<li>Total Staked Maturity: {Number(totalStakedMaturity/100_000_000n).toLocaleString()}</li>
 		</ul>
 	</div>
 </section>
