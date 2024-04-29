@@ -3,7 +3,7 @@
 
 	import { Principal } from "@dfinity/principal";
 	import { defaultAgent } from "@dfinity/utils";
-	import { initSnsWrapper } from "@dfinity/sns";
+	import { initSnsWrapper, neuronSubaccount } from "@dfinity/sns";
 	import { onMount } from "svelte";
 
 	const readGovernance = async () => {
@@ -17,7 +17,24 @@
 			agent,
 			certified: false,
 		});
-		console.log(await snsWrapper.listNeurons({}))
+
+		let beforeNeuronId = undefined
+		let neurons = []
+		let totalStake = BigInt(0)
+		let totalNeurons = BigInt(0)
+
+		do {
+			neurons = await snsWrapper.listNeurons({ beforeNeuronId })
+			for (let i = 0; i < neurons.length; i++) {
+				totalStake += neurons[i].cached_neuron_stake_e8s
+				totalNeurons += 1n;
+				beforeNeuronId = neurons[i].id[0];
+			}
+		} while (neurons.length > 0);
+		
+		console.log("Total stake: " + totalStake)
+		console.log("Total neurons: " + totalNeurons
+		)
 		const { metadata, swapState } = snsWrapper;
 		console.log(metadata)
 		const [data, token] = await metadata({});
