@@ -21,6 +21,7 @@
 		let neurons = []
 		let totalStake = BigInt(0)
 		let totalNeurons = BigInt(0)
+		let totalMaturity = BigInt(0)
 
 		do {
 			neurons = await snsWrapper.listNeurons({ beforeNeuronId })
@@ -28,11 +29,13 @@
 				console.log(neurons[i])
 				totalStake += neurons[i].cached_neuron_stake_e8s
 				totalNeurons += 1n;
+				totalMaturity += neurons[i].maturity_e8s_equivalent
 				beforeNeuronId = neurons[i].id[0];
 			}
 		} while (neurons.length > 0);
 		
 		console.log("Total stake: " + totalStake)
+		console.log("Total maturity: " + totalMaturity)
 		console.log("Total neurons: " + totalNeurons)
 		
 		const { metadata, swapState } = snsWrapper;
