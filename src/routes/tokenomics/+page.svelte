@@ -30,7 +30,7 @@
 				totalStake += neurons[i].cached_neuron_stake_e8s
 				totalNeurons += 1n;
 				totalMaturity += neurons[i].maturity_e8s_equivalent
-				if (totalStake == BigInt(1_000_000)) {
+				if (totalStake == BigInt(100000000000000)) {
 					totalMaturityDevs += totalMaturity
 				}
 				beforeNeuronId = neurons[i].id[0];
@@ -38,7 +38,7 @@
 				console.log(uint8ArrayToHexString(neurons[i].id[0].id))
 			}
 		} while (neurons.length > 0);
-		
+		// staked_maturity_e8s_equivalent []
 		console.log("Total stake: " + totalStake)
 		console.log("Total maturity: " + totalMaturity)
 		console.log("Total maturity devs: " + totalMaturityDevs)
