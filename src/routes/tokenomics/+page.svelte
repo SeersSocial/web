@@ -14,6 +14,8 @@
 	let totalMaturityDevs = BigInt(0)
 	let totalStakedMaturity = BigInt(0)
 	let tokenSupply = BigInt(0)
+	let treasury = BigInt(6599995800000000)
+	let devStake = BigInt(1500000000000000)
 
 	const readGovernance = async () => {
 		console.log("executing read governance")
@@ -87,6 +89,7 @@
 		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Open SNS Dashboard</A>
 		<ul class="list-inside space-y-4">
 			<li>Neurons: {totalNeurons}</li>
+			<li>Target Token Supply: {Number((tokenSupply+totalMaturity+totalStakedMaturity-totalMaturityDevs-devStake-treasury/2n)/100_000_000n).toLocaleString()} ICX</li>
 			<li>Max Token Supply: {Number((tokenSupply+totalMaturity+totalStakedMaturity-totalMaturityDevs)/100_000_000n).toLocaleString()} ICX</li>
 			<li>Token Supply: {Number(tokenSupply/100_000_000n).toLocaleString()} ICX</li>
 			<li>Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()} ICX</li>
