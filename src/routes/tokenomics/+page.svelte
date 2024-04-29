@@ -13,6 +13,7 @@
 	let totalMaturity = BigInt(0)
 	let totalMaturityDevs = BigInt(0)
 	let totalStakedMaturity = BigInt(0)
+	let tokenSupply = BigInt(0)
 
 	const readGovernance = async () => {
 		console.log("executing read governance")
@@ -26,7 +27,8 @@
 		});
 
 		let beforeNeuronId = undefined
-	
+		tokenSupply = await snsWrapper.totalTokensSupply({})
+			
 		do {
 			neurons = await snsWrapper.listNeurons({ beforeNeuronId })
 			for (let i = 0; i < neurons.length; i++) {
@@ -85,6 +87,7 @@
 		<A href="https://dashboard.internetcomputer.org/sns/u67kc-jyaaa-aaaaq-aabpq-cai">Open SNS Dashboard</A>
 		<ul class="list-inside space-y-4">
 			<li>Neurons: {totalNeurons}</li>
+			<li>Token Supply: {Number(tokenSupply/100_000_000n).toLocaleString()} ICX</li>
 			<li>Neuron Stake: {Number(totalStake/100_000_000n).toLocaleString()} ICX</li>
 			<li>Maturity: {Number(totalMaturity/100_000_000n).toLocaleString()} ICX</li>
 			<li>Staked Maturity: {Number(totalStakedMaturity/100_000_000n).toLocaleString()} ICX</li>
