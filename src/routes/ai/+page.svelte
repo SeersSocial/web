@@ -14,6 +14,7 @@
 
     const main = async ()  => {
         console.log("calling groq")
+        if (!content) return
 
         const chatCompletion = await groq.chat.completions.create({
             messages: [{ role: 'user', content }],
@@ -31,10 +32,12 @@
 	<meta name="description" content="AI" />
 </svelte:head>
 
-<div class="w-full">
-    <Input type="text" id="post" placeholder="Post something" bind:value={content}/>
-    <Button type="submit" on:click={main}>Submit</Button>
-</div>
-<div class="w-full">
-    {response}
+<div class="w-full p-2 m-2">
+    <div class="w-[200px] m-2 p-2">
+        <Input type="text" id="post" placeholder="Write something" bind:value={content}/>
+        <Button type="submit" on:click={main} color="dark">Post</Button>
+    </div>
+    <div class="w-full m-2 p-2">
+        {response}
+    </div>
 </div>
