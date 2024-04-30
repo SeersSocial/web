@@ -1,5 +1,7 @@
 <script>
-    import { Input, Button } from "flowbite-svelte";
+// @ts-nocheck
+
+    import { Input, Button, Card } from "flowbite-svelte";
     import Groq from 'groq-sdk';
 	import { onMount } from "svelte";
 
@@ -11,6 +13,7 @@
 
     let content = ""
     let response = ""
+    let responses = []
 
     const main = async ()  => {
         console.log("calling groq")
@@ -22,6 +25,7 @@
         });
 
         response = chatCompletion.choices[0].message.content;
+        responses.push(response)
     }
 
     onMount(main)
@@ -32,12 +36,14 @@
 	<meta name="description" content="AI" />
 </svelte:head>
 
-<div class="w-full p-2 m-2">
+<div class="w-full p-2 m-2 gap-4 min-h-screen">
     <div class="w-[200px] m-2 p-2">
         <Input type="text" id="post" placeholder="Write something" bind:value={content}/>
-        <Button type="submit" on:click={main} color="dark">Post</Button>
+        <Button type="submit" on:click={main} color="dark" class="focus:outline-none">Post</Button>
     </div>
-    <div class="w-full m-2 p-2">
-        {response}
+    <div class="w-full m-2 p-2 gap-1">
+        {#each responses as r}
+            <Card>{r}</Card>
+        {/each}
     </div>
 </div>
