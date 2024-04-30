@@ -4,9 +4,10 @@
 	import { onMount } from "svelte";
 
     const groqKey = "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"
-    const groq = new Groq();
 
-    async function main() {
+    const main = async ()  => {
+        const groq = new Groq();
+
         const chatCompletion = await groq.chat.completions.create({
             messages: [{ role: 'user', content: 'Explain the importance of low latency LLMs' }],
             model: 'mixtral-8x7b-32768',
