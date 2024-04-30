@@ -7,7 +7,8 @@
 
     const main = async ()  => {
         const groq = new Groq({
-            apiKey: groqKey
+            apiKey: groqKey,
+            dangerouslyAllowBrowser: true
         });
 
         const chatCompletion = await groq.chat.completions.create({
