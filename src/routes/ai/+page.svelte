@@ -6,7 +6,9 @@
     const groqKey = "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"
 
     const main = async ()  => {
-        const groq = new Groq();
+        const groq = new Groq({
+            apiKey: groqKey
+        });
 
         const chatCompletion = await groq.chat.completions.create({
             messages: [{ role: 'user', content: 'Explain the importance of low latency LLMs' }],
