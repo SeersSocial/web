@@ -25,11 +25,9 @@
 
         response = chatCompletion.choices[0].message.content;
         responses.push(response)
-
-        console.log(responses)
+        responses = responses
     }
 
-    // onMount(main)
 </script>
 
 <svelte:head>
@@ -38,7 +36,7 @@
 </svelte:head>
 
 <div class="w-full p-2 m-2 gap-4 min-h-screen">
-    <div class="w-[300px] m-2 p-2 gap-2 flex-row">
+    <div class="w-[300px] m-2 p-2 gap-2 flex-col">
         <Input type="text" id="post" placeholder="Write something" bind:value={content}/>
         <Button type="submit" on:click={main} color="dark" class="outline-none focus:outline-none">Post</Button>
     </div>
