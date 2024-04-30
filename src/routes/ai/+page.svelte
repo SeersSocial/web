@@ -16,7 +16,6 @@
     let responses = []
 
     const main = async ()  => {
-        console.log("calling groq")
         if (!content) return
 
         const chatCompletion = await groq.chat.completions.create({
@@ -26,9 +25,11 @@
 
         response = chatCompletion.choices[0].message.content;
         responses.push(response)
+
+        console.log(responses)
     }
 
-    onMount(main)
+    // onMount(main)
 </script>
 
 <svelte:head>
@@ -37,9 +38,9 @@
 </svelte:head>
 
 <div class="w-full p-2 m-2 gap-4 min-h-screen">
-    <div class="w-[300px] m-2 p-2">
+    <div class="w-[300px] m-2 p-2 gap-4">
         <Input type="text" id="post" placeholder="Write something" bind:value={content}/>
-        <Button type="submit" on:click={main} color="dark" class="focus:outline-none">Post</Button>
+        <Button type="submit" on:click={main} color="dark" class="outline-none focus:outline-none">Post</Button>
     </div>
     <div class="w-full m-2 p-2 gap-1">
         {#each responses as r}
