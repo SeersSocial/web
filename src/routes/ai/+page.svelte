@@ -39,7 +39,7 @@
 <div class="w-full p-2 m-2 gap-4 min-h-screen">
     <div class="flex flex-row w-full m-2 p-2 gap-2">
         <Input type="text" id="post" placeholder="Write something" bind:value={content}/>
-        <Button type="submit" on:click={main} color="dark" class="outline-none focus:outline-none">Post</Button>
+        <Button type="submit" on:click={main} color="dark" class="border-none outline-none focus:outline-none">Post</Button>
     </div>
     <div class="flex flex-col w-full m-2 p-2 gap-2">
         {#each responses as r}
