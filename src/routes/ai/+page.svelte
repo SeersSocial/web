@@ -37,7 +37,7 @@
 </svelte:head>
 
 <div class="w-full p-2 m-2 gap-4 min-h-screen">
-    <div class="w-[200px] m-2 p-2">
+    <div class="w-[300px] m-2 p-2">
         <Input type="text" id="post" placeholder="Write something" bind:value={content}/>
         <Button type="submit" on:click={main} color="dark" class="focus:outline-none">Post</Button>
     </div>
