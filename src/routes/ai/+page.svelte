@@ -43,7 +43,7 @@
     </div>
     <div class="flex flex-col w-full m-2 p-2 gap-2">
         {#each responses as r}
-            <div class="w-full bg-white text-black rounded-md m-2 p-2">{r}</div>
+            <div class="w-full bg-white text-black rounded-md">{r}</div>
         {/each}
     </div>
 </div>
