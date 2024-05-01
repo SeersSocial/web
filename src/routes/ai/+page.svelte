@@ -20,7 +20,7 @@
 
         const chatCompletion = await groq.chat.completions.create({
             messages: [ 
-                { role: 'user', content: "Reply with a short sentence, less than 300 characters. Reply with personality as a human replying to a post. Don't use hashtags or anything that can imply you are a bot. Remove quotes. Reply to the following:" }, 
+                { role: 'user', content: "Reply with less than 300 characters. Reply with personality as a human replying to a post. Don't use hashtags or anything that can imply you are a bot. Remove quotes. Reply to the following:" }, 
                 { role: 'user', content }
             ],
             model: 'llama3-70b-8192',
