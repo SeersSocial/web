@@ -19,7 +19,10 @@
         if (!content) return
 
         const chatCompletion = await groq.chat.completions.create({
-            messages: [ {role: 'user', content: "Reply in less than 300 characters. Reply with personality as a human replying to a post." }, { role: 'user', content }],
+            messages: [ 
+                { role: 'user', content: "Reply in less than 300 characters. Reply with personality as a human replying to a post. Don't use hashtags or anything that can imply you are a bot. Reply to the following:" }, 
+                { role: 'user', content }
+            ],
             model: 'mixtral-8x7b-32768',
         });
 
