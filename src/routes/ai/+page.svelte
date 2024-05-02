@@ -3,12 +3,9 @@
 
     import { Input, Button, Card } from "flowbite-svelte";
     import Groq from 'groq-sdk';
-	import { onMount } from "svelte";
-
-    const groqKey = "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"
+	
     const groq = new Groq({
-        apiKey: groqKey,
-        dangerouslyAllowBrowser: true
+        apiKey: process.env.GROQ_API_KEY,
     });
 
     let content = ""
