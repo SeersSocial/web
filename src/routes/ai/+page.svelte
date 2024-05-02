@@ -33,7 +33,7 @@
             }
             
             let messages = messages_tmp.slice()
-            let prompt = [{ role: 'user', content: "Generate a unique short, 50 words, response that is coherent with the dialogue history, without repeating previous information. Use your common sense, reflect and summarize previous messages." }, { role: 'user', content }];
+            let prompt = [{ role: 'user', content: "Generate a unique short, 50 words, response that explains why the previous messages are right, or why they are wrong, or expand with missing details, or explain better." }, { role: 'user', content }];
             messages = messages.concat(prompt)
 
             const chatCompletion = await groq.chat.completions.create({
