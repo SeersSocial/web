@@ -33,7 +33,7 @@
             }
             
             let messages = messages_tmp.slice()
-            let prompt = [{ role: 'user', content: "Summarize previous content in less than 300 characters. If there are no previous messages, then write a response to the following paragraph:" }, { role: 'user', content }];
+            let prompt = [{ role: 'assistant', content: "Summarize previous content in less than 300 characters. If there are no previous messages, then write a response to the following paragraph:" }, { role: 'user', content }];
             messages = messages.concat(prompt)
 
             const chatCompletion = await groq.chat.completions.create({
