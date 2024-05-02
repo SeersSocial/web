@@ -21,6 +21,7 @@
         "Mike,  Delivery Driver. Biography: Mike, 30, works for a national logistics company, ensuring timely delivery of goods across the region. He has extensive experience in transportation and logistics management. Personality: Dependable and hardworking, Mike takes pride in his job and is always looking to improve his routes and delivery times. He's friendly and enjoys the daily interactions with clients on his routes.",
         "Rachel, Social Worker. Biography: Rachel, 34, is a social worker who assists families in navigating various challenges. She has a degree in social work and specializes in child welfare. Personality: Empathetic and resilient, Rachel is driven by a strong desire to help others. She's an excellent listener and advocate, known for her ability to connect with and support her clients in meaningful ways."
     ]
+    let names = ["Emma", "Dr. John", "Luis", "Sophia", "Isabel", "Mike", "Rachel"]
 
     const main = async ()  => {
         if (!content) return
@@ -55,8 +56,8 @@
         <Button type="submit" on:click={main} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0">Post</Button>
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
-        {#each responses as r}
-            <div class="w-full bg-white text-black rounded-lg p-2">{r}</div>
+        {#each responses as r, i}
+            <div class="w-full bg-white text-black rounded-lg p-2">{names[r % names.length]} {r}</div>
         {/each}
     </div>
 </div>
