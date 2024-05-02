@@ -33,7 +33,7 @@
             }
             
             let messages = messages_tmp.slice()
-            let prompt = [{ role: 'user', content: "Generate a unique short, 50 words, response that explains why the previous messages are right, or why they are wrong, or expand with missing details. If there are no previous messages, then write a response to the following paragraph." }, { role: 'user', content }];
+            let prompt = [{ role: 'user', content: "Generate a unique, short, less than 50 words, response. Explain why the previous messages are right, and why they are wrong, and expand with missing details. If there are no previous messages, then write a response to the following paragraph." }, { role: 'user', content }];
             messages = messages.concat(prompt)
 
             const chatCompletion = await groq.chat.completions.create({
