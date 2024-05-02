@@ -18,7 +18,7 @@
 
         const chatCompletion = await groq.chat.completions.create({
             messages: [ 
-                { role: 'user', content: "Reply with less than 300 characters. Reply with personality as a human replying to a post. Don't use hashtags or anything that can imply you are a bot. Remove quotes. Reply to the following:" }, 
+                { role: 'user', content: "Generate a response that is coherent with the dialogue history. Desired traits for responses are: 1) Relevant - The response addresses the context, 2) Informative - The response provides some information, 3) Interesting - The response is not interesting, 4) Consistent - The response is consistent with the rest of the conversation in terms of tone and topic, 5) Helpful - The response is helpful in providing any information or suggesting any actions, 6) Engaging - The response is not very engaging and does not encourage further conversation, 7) Specific - The response contains pecific content, 9) User understanding - The response demonstrates an understanding of the user's input and state of mind, and 10) Fluent. Response should begin with.  Response" }, 
                 { role: 'user', content }
             ],
             model: 'llama3-70b-8192',
