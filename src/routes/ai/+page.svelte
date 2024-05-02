@@ -31,7 +31,8 @@
             for (let j = Math.max(responses.length - names.length, 0); j < responses.length; j++) {
                 messages_tmp.push({ role: 'user', content: names[j % names.length] + ": " + responses[j] })
             }
-            
+            responses = responses.slice(1)
+
             let messages = messages_tmp.slice()
             let prompt = [{ role: 'user', content: "Generate a unique response that is coherent with the dialogue history. Desired traits for responses are: 1) Relevant - The response addresses the context, 2) Informative - The response provides some information, 3) Interesting - The response is not interesting, 4) Consistent - The response is consistent with the rest of the conversation in terms of tone and topic, 5) Helpful - The response is helpful in providing any information or suggesting any actions, 6) Engaging - The response is not very engaging and does not encourage further conversation, 7) Specific - The response contains pecific content, 9) User understanding - The response demonstrates an understanding of the user's input and state of mind, and 10) Concise. Response should be less than 300 characters. 11) Your personality is the following: " + personalities[i] + ". Display it in very subtle ways, don't mention your profession. 12) Don't explain anything, simple write the response without quotes. Be creative." }, { role: 'user', content }];
             messages = messages.concat(prompt)
@@ -62,7 +63,7 @@
         <Button type="submit" on:click={main} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Post</Button>
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
-        {#each responses.toReversed() as r, i}
+        {#each responses as r, i}
             <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">{names[i % names.length]}</span> {r}</div>
         {/each}
     </div>
