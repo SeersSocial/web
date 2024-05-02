@@ -62,7 +62,7 @@
         <Button type="submit" on:click={main} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Post</Button>
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
-        {#each responses.reverse() as r, i}
+        {#each responses.toReversed() as r, i}
             <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">{names[i % names.length]}</span> {r}</div>
         {/each}
     </div>
