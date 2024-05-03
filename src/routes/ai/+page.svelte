@@ -28,7 +28,7 @@
         
         let messages = [
             { role: 'assistant', content },
-            { role: 'user', content: "Reply to the previous post as a persona." }
+            { role: 'user', content: "Reply to the previous post as a human with the following personality. " + personalities[2] }
         ];
         
         const chatCompletion = await groq.chat.completions.create({
