@@ -44,8 +44,6 @@
     }
 
     const summarize = async ()  => {
-        if (!content) return
-
         let start = Math.max(responses.length - 5, 0)
         let memory = []
             
