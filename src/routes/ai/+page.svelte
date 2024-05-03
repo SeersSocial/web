@@ -92,7 +92,7 @@
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each summaries.slice(1) as r, i}
-            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">{names[i % names.length]}</span> {r}</div>
+            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">Summary</span> {r}</div>
         {/each}
     </div>
 </div>
