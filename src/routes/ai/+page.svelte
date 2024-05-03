@@ -23,29 +23,49 @@
     ]
     let names = ["Emma", "Dr. John", "Luis", "Sophia", "Isabel", "Mike", "Rachel"]
 
-    const main = async ()  => {
+    const reply = async () => {
+        if (!content) return
+        
+        let messages = [
+            { role: 'assistant', content },
+            { role: 'user', content: "Reply to the previous post as a persona." }
+        ];
+        
+        const chatCompletion = await groq.chat.completions.create({
+            messages,
+            model: 'llama3-70b-8192',
+        });
+
+        response = chatCompletion.choices[0].message.content;
+        responses.push(response) 
+        responses = responses   
+    
+        content = ""
+    }
+
+    const summarize = async ()  => {
         if (!content) return
 
-        for (let i = 0; i < personalities.length; i++) {
-            let messages_tmp = []
-            for (let j = Math.max(responses.length - names.length, 0); j < responses.length; j++) {
-                messages_tmp.push({ role: 'user', content: names[j % names.length] + ": " + responses[j] })
-            }
+        let start = Math.max(responses.length - 5, 0)
+        let memory = []
             
-            let messages = messages_tmp.slice()
-            let prompt = [{ role: 'assistant', content: "Summarize previous content in less than 300 characters. If there are no previous messages, then write a response to the following paragraph:" }, { role: 'user', content }];
-            messages = messages.concat(prompt)
-
-            const chatCompletion = await groq.chat.completions.create({
-                messages,
-                model: 'llama3-70b-8192',
-            });
-
-            response = chatCompletion.choices[0].message.content;
-            responses.push(response) 
-            responses = responses   
+        for (let j = start; j < responses.length; j++) {
+            memory.push({ role: 'assistant', content: names[j % names.length] + ": " + responses[j] })
         }
+        
+        let messages = memory.slice()
+        let prompt = [{ role: 'user', content: "Summarize previous conversation in less than 300 characters." }];
+        messages = messages.concat(prompt)
 
+        const chatCompletion = await groq.chat.completions.create({
+            messages,
+            model: 'llama3-70b-8192',
+        });
+
+        response = chatCompletion.choices[0].message.content;
+        responses.push(response) 
+        responses = responses   
+    
         content = ""
     }
 
@@ -59,7 +79,10 @@
 <div class="w-full p-2 m-2 gap-4 min-h-screen">
     <div class="flex flex-row w-full m-2 p-2 gap-2">
         <Input type="text" id="post" placeholder="Write something" bind:value={content}/>
-        <Button type="submit" on:click={main} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Post</Button>
+    </div>
+    <div class="flex flex-row w-full m-2 p-2 gap-2">
+        <Button type="submit" on:click={reply} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Reply</Button>
+        <Button type="submit" on:click={summarize} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Summarize</Button>
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each responses as r, i}
