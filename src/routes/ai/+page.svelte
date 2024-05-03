@@ -57,7 +57,7 @@
 
         const chatCompletion = await groq.chat.completions.create({
             messages,
-            model: 'llama3-70b-8192',
+            model: 'gemma-7b-it',
         });
 
         response = chatCompletion.choices[0].message.content;
