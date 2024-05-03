@@ -12,6 +12,8 @@
     let content = ""
     let response = ""
     let responses = []
+    let summaries = []
+
     let personalities = [
         "Emma, Retail Manager. Biography: Emma, 32, manages a bustling boutique in the city center. She has a degree in Business Administration and has worked her way up from sales assistant to manager over the past ten years. Personality: Emma is energetic and personable, with a knack for understanding customer needs and trends. She's decisive and highly organized, often handling multiple challenges simultaneously with a calm demeanor.",
         "Dr. John, Cardiologist.  Biography: Dr. John, 45, is a cardiologist at a prominent hospital. After completing his medical degree and a demanding residency, he now leads a team of healthcare professionals. Personality: Dr. John is meticulous and compassionate, always taking the time to explain procedures and care plans to his patients. His colleagues respect him for his leadership skills and his dedication to patient care.",
@@ -28,7 +30,7 @@
         
         let messages = [
             { role: 'assistant', content },
-            { role: 'user', content: "Reply to the previous post as a human with the following personality. " + personalities[2] }
+            { role: 'user', content: "Reply with less than 300 characters to the previous post as a human with the following personality. " + personalities[2] }
         ];
         
         const chatCompletion = await groq.chat.completions.create({
@@ -61,9 +63,9 @@
         });
 
         response = chatCompletion.choices[0].message.content;
-        responses.push(response) 
-        responses = responses   
-    
+        summaries.push(response) 
+        summaries = summaries
+
         content = ""
     }
 
@@ -84,6 +86,14 @@
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each responses as r, i}
+            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">{names[i % names.length]}</span> {r}</div>
+        {/each}
+    </div>
+</div>
+
+<div class="w-full p-2 m-2 gap-4 min-h-screen">
+    <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
+        {#each summaries as r, i}
             <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">{names[i % names.length]}</span> {r}</div>
         {/each}
     </div>
