@@ -12,7 +12,7 @@
     let content = ""
     let response = ""
     let responses = []
-    let summaries = []
+    let summaries = [""]
 
     let personalities = [
         "Emma, Retail Manager. Biography: Emma, 32, manages a bustling boutique in the city center. She has a degree in Business Administration and has worked her way up from sales assistant to manager over the past ten years. Personality: Emma is energetic and personable, with a knack for understanding customer needs and trends. She's decisive and highly organized, often handling multiple challenges simultaneously with a calm demeanor.",
@@ -29,6 +29,7 @@
         if (!content) return
         
         let messages = [
+            { role: 'assistant', content: summaries[summaries.length-1] },
             { role: 'assistant', content },
             { role: 'user', content: "Reply with less than 300 characters to the previous post as a human with the following personality. " + personalities[2] }
         ];
