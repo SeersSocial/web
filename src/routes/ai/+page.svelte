@@ -109,6 +109,7 @@
     <div class="flex flex-row w-full m-2 p-2 gap-2">
         <Button type="submit" on:click={reply} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Reply</Button>
         <Button type="submit" on:click={summarize} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Summarize</Button>
+        <Button type="submit" on:click={logical} color="dark" class="border-none outline-none hover:outline-none focus:outline-none shadow-none ring-black ring-0 focus:ring-0">Logical</Button>
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each responses as r, i}
