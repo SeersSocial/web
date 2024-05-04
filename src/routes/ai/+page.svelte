@@ -54,7 +54,7 @@
         let messages = [
             { role: 'assistant', content: summaries[summaries.length-1] },
             { role: 'assistant', content },
-            { role: 'user', content: "Analyse logically the previous statements. Let us know if there are fallacies." }
+            { role: 'user', content: "Analyse logically the previous statements, enumerating them first and summarizing the conclusion. Let us know if there are fallacies and provide a counterexample. Use the less amount of words." }
         ];
         
         const chatCompletion = await groq.chat.completions.create({
