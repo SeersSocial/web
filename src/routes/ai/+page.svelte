@@ -75,6 +75,7 @@
         let memory = []
             
         memory.push({ role: 'assistant', content: summaries[summaries.length-1] })
+        memory.push({ role: 'assistant', content: logicals[logicals.length-1] })
         
         for (let j = start; j < responses.length; j++) {
             memory.push({ role: 'assistant', content: names[j % names.length] + ": " + responses[j] })
