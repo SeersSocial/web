@@ -2,6 +2,7 @@
 // @ts-nocheck
 
     import { Input, Button, Card } from "flowbite-svelte";
+    import SvelteMarkdown from 'svelte-markdown'
     import Groq from 'groq-sdk';
 	
     const groq = new Groq({
@@ -113,17 +114,17 @@
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each responses as r, i}
-            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">{names[i % names.length]}</span> {r}</div>
+            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">{names[i % names.length]}</span> <SvelteMarkdown source={r} /></div>
         {/each}
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each summaries.slice(1) as r, i}
-            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">Summary</span> {r}</div>
+            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">Summary</span> <SvelteMarkdown source={r} /></div>
         {/each}
     </div>
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each logicals.slice(1) as r, i}
-            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">Logical</span> {r}</div>
+            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">Logical</span> <SvelteMarkdown source={r} /></div>
         {/each}
     </div>
 </div>

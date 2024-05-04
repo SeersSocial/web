@@ -49,6 +49,7 @@
 		"classnames": "^2.3.2",
 		"flowbite": "^1.8.1",
 		"flowbite-svelte": "^0.44.18",
-		"groq-sdk": "^0.3.3"
+		"groq-sdk": "^0.3.3",
+		"svelte-markdown": "^0.4.1"
 	}
 }
