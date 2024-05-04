@@ -13,6 +13,7 @@
     let response = ""
     let responses = []
     let summaries = [""]
+    let logicals = [""]
 
     let personalities = [
         "Emma, Retail Manager. Biography: Emma, 32, manages a bustling boutique in the city center. She has a degree in Business Administration and has worked her way up from sales assistant to manager over the past ten years. Personality: Emma is energetic and personable, with a knack for understanding customer needs and trends. She's decisive and highly organized, often handling multiple challenges simultaneously with a calm demeanor.",
@@ -45,6 +46,28 @@
     
         content = ""
     }
+
+    const logical = async () => {
+        if (!content) return
+        
+        let messages = [
+            { role: 'assistant', content: summaries[summaries.length-1] },
+            { role: 'assistant', content },
+            { role: 'user', content: "Analyse logically the previous statements. Let us know if there are fallacies." }
+        ];
+        
+        const chatCompletion = await groq.chat.completions.create({
+            messages,
+            model: 'gemma-7b-it',
+        });
+
+        response = chatCompletion.choices[0].message.content;
+        logicals.push(response) 
+        logicals = logicals   
+    
+        content = ""
+    }
+
 
     const summarize = async ()  => {
         let start = Math.max(responses.length - 5, 0)
@@ -95,6 +118,11 @@
     <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
         {#each summaries.slice(1) as r, i}
             <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">Summary</span> {r}</div>
+        {/each}
+    </div>
+    <div class="grid grid-cols-4 gap-4 w-full m-2 p-2">
+        {#each logicals.slice(1) as r, i}
+            <div class="w-full bg-white text-black rounded-lg p-2"><span class="font-bold mr-1">Logical</span> {r}</div>
         {/each}
     </div>
 </div>
