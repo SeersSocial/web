@@ -25,7 +25,7 @@
 <div class="relative px-2 bg-[#0E031F] text-white">
 	<Navbar
 		style="background:transparent; color: white;"
-		navClass="bg-[#0E031F] text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
+		navClass="bg-black text-white px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0"
 		let:hidden
 		let:toggle
 		color="dark"
