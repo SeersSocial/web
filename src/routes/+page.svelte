@@ -80,7 +80,7 @@ function updateCountdown() {
 
 <section class="w-full flex flex-col md:gap-8 text-xl md:text-2xl justify-center m-2 p-2">
 	<div class="text-2xl font-bold text-center">
-    Next release coming soon!
+    Testnet coming soon!
   </div>
   
   <!-- <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
