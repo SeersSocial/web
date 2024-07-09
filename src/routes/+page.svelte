@@ -61,7 +61,7 @@ function updateCountdown() {
 </svelte:head>
 
 <section class="w-full md:flex md:flex-row">
-	<div class="flex flex-col gap-4 mt-4 p-4">
+	<div class="flex flex-col gap-4 mt-2 p-4">
 		<div class="text-4xl md:text-5xl font-bold text-center">
 			<span class="text-white">Seers</span>
 		</div>
