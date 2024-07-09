@@ -116,7 +116,7 @@ function updateCountdown() {
 		<div class="md:flex md:flex-row w-full">
 			<div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-medium mb-2 text-[#29ABE2]">DAO Controlled</h3>
-				ICX operates as a social network governed by a DAO. Each update to the dapp must be approved through a voting mechanism that utilizes locked ICX tokens called neurons.
+				Seers operates as a social network governed by a DAO. Each update to the dapp must be approved through a voting mechanism that utilizes locked SEER tokens called neurons.
       </div>
       <div class="md:w-1/2 p-4 text-xl">
 				<h3 class="font-medium mb-2 text-[#ED1E79]">Fully On-Chain</h3>
