@@ -18,7 +18,7 @@
                     </svg>
                 </div>
                 <div class="ml-6">
-                    <h3 class="text-lg font-semibold text-[#29ABE2]">Decentralise Seers using the SNS ✅</h3>
+                    <h3 class="text-lg font-semibold text-[#29ABE2]">Decentralise Seers using the SNS [DONE]</h3>
                     <p class="mt-4 text-base text-white-100">Decentralize Seers by distributing 31% of the token supply and establishing an SNS DAO.</p>
                 </div>
             </li>
