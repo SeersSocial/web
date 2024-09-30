@@ -66,7 +66,7 @@ function updateCountdown() {
 			<span class="text-white">Seers</span>
 		</div>
 		<div class="text-xl p-2">
-			Social network for forecasters. Bet on politics, sports, tech, science and more with play money. Create your own markets. Receive airdrops. 
+			Social network for forecasters powered by AI. Bet on politics, sports, tech, science and more with play money. Create your own markets. Receive airdrops. 
 		</div>
 		<!-- <div class="flex justify-center">
       <a href="https://oulla-fyaaa-aaaag-qa6fa-cai.ic0.app/" role="link" class="text-center font-medium focus:outline-none inline-flex items-center justify-center px-5 py-3 text-base text-white bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700 rounded-lg">Enter Demo</a>
